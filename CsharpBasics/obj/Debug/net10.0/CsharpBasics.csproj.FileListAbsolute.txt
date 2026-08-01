@@ -1,0 +1,14 @@
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\CsharpBasics.exe
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\CsharpBasics.deps.json
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\CsharpBasics.runtimeconfig.json
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\CsharpBasics.dll
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\CsharpBasics.pdb
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.AssemblyInfoInputs.cache
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.AssemblyInfo.cs
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.csproj.CoreCompileInputs.cache
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.dll
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\refint\CsharpBasics.dll
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.pdb
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpBasics.genruntimeconfig.cache
+D:\programing\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\ref\CsharpBasics.dll
