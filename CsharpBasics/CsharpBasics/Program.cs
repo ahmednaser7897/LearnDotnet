@@ -10,7 +10,9 @@ namespace CsharpFundamentals.CsharpBasics
         {
             //TestNamespace.Run();
             //ValueDataTypsBasics.Run();
-            ReferenceDataTypes.Run();
+            //EnumBasics.Run();
+            StructBasics.Run();
+            //ReferenceDataTypes.Run();
         }
     }
 }
