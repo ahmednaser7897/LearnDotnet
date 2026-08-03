@@ -28,7 +28,7 @@ namespace CsharpFundamentals.CsharpBasics
         //we must create the obist of it
         // so if we created == we must create !=
         // opreator overloading for ==
-        public static bool operator==(Complex c1, Complex c2)
+        public static bool operator ==(Complex c1, Complex c2)
         {
             return (c1.Real == c2.Real && c1.Img == c2.Img);
         }
@@ -52,7 +52,7 @@ namespace CsharpFundamentals.CsharpBasics
 
         public override bool Equals(Object? obj)
         {
-            if(obj is Complex)
+            if (obj is Complex)
             {
                 return this == (Complex)obj;
             }
@@ -60,7 +60,7 @@ namespace CsharpFundamentals.CsharpBasics
             {
                 return false;
             }
-                
+
         }
 
         public override int GetHashCode()
@@ -108,8 +108,8 @@ namespace CsharpFundamentals.CsharpBasics
         static void StructOpreatorOverloading()
         {
             Console.WriteLine("Struct Opreator Overloading");
-            Complex c1 = new Complex(1,4);
-            Complex c2 = new Complex(3,5);
+            Complex c1 = new Complex(1, 4);
+            Complex c2 = new Complex(3, 5);
             //using opreator overloading of +
             Complex c3 = c1 + c2;//->>Complex c4 = Complex.operator+(c2 , c3 )
             Console.WriteLine(c3.ToString());
@@ -124,13 +124,13 @@ namespace CsharpFundamentals.CsharpBasics
             Complex c6 = new Complex(1, 4);
             Complex c7 = new Complex(3, 5);
             Complex c8 = new Complex(3, 5);
-            Console.WriteLine($"is c6 [{c6}] == c7 [{c7}]? {c6==c7}");
+            Console.WriteLine($"is c6 [{c6}] == c7 [{c7}]? {c6 == c7}");
             Console.WriteLine($"is c7 [{c7}] == c8 [{c8}]? {c7 == c8}");
 
             ///using opreator overloading of ++ pre and post
             Console.WriteLine("Stest ++ pre and post");
             Console.WriteLine($"c6 befor is [{c6}]");//c6 befor is [Real is 1 and Img is 4]
-            Complex c9= c6++;
+            Complex c9 = c6++;
             Console.WriteLine($"c6 after is [{c6}]");//c6 after is [Real is 2 and Img is 5]
             Console.WriteLine($"c9 is [{c9}]");//c9 is [Real is 1 and Img is 4]
 
@@ -148,7 +148,7 @@ namespace CsharpFundamentals.CsharpBasics
             Console.WriteLine(c2.Real); // 100
 
             //pssing is by value so if it changes in a fnuction it will not effect 
-            Complex c = new Complex(1, 2);
+            Complex c = new(1, 2);
             Change(c);
             Console.WriteLine(c.Real);
         }

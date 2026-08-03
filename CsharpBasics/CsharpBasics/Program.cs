@@ -9,9 +9,17 @@ namespace CsharpFundamentals.CsharpBasics
         static void Main(string[] args)
         {
             //TestNamespace.Run();
+            //Operators.Run();
+            //CharDataType.Run();
+            //StringDataType.Run();
+            //NumericDataTypes.Run();
+            //Selections.Run();
+            //Loops.Run();
+            //Arrays.Run();
+            Methods.Run();
             //ValueDataTypsBasics.Run();
             //EnumBasics.Run();
-            StructBasics.Run();
+            //StructBasics.Run();
             //ReferenceDataTypes.Run();
         }
     }

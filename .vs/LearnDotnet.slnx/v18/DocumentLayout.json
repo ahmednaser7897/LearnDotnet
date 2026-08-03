@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\valuedatatypsbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\valuedatatypsbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\arrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\arrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Program.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\Program.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Program.cs",
+              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T19:18:53.151Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValueDataTypsBasics.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ValueDataTypsBasics.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\ValueDataTypsBasics.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ValueDataTypsBasics.cs",
+              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\ValueDataTypsBasics.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAowEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T22:11:12.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Methods.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Methods.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\Methods.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Methods.cs",
+              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\Methods.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAAAxwDcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T21:24:40.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Arrays.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Arrays.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\Arrays.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Arrays.cs",
+              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\Arrays.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T21:11:34.374Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

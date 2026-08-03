@@ -33,6 +33,7 @@ namespace CsharpFundamentals.CsharpBasics
             // now its initialized with null value and will not give compile error, but will give runtime error when we try to access any property of the person variable.
             person = null;
             Console.WriteLine($"Person: {person}");// no compile and no runtime erorrs.
+            //Console.WriteLine($"Person age: {person.age}");runtime erorrs.
             //Console.WriteLine($"Person name: {person.name}");// runtime erorrs.
             // this is declaring a variable of type Person and initializing it with a new instance of the Person class.
             Person person1 = new Person("John", 30);

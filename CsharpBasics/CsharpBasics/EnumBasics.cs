@@ -59,7 +59,7 @@ namespace CsharpFundamentals.CsharpBasics
             None = 0,
             Read = 2,
             Write = 10,
-            Delete ,// by defult this will be 11
+            Delete,// by defult this will be 11
             Execute = 20
         }
 
@@ -73,10 +73,10 @@ namespace CsharpFundamentals.CsharpBasics
 
             Console.WriteLine("Today name = " + today);//Today name = Monday
             Console.WriteLine("Order Status name = " + status);//Order Status name = Pending
-           
+
             // we can convert enum to int.
             //this is how to get the value of a enum name
-            Console.WriteLine("Today value = " +(int) today);//Today value = 2
+            Console.WriteLine("Today value = " + (int)today);//Today value = 2
             Console.WriteLine("Order Status value = " + (int)status);//Order Status value = 1
 
             // we can convert int to enum.
