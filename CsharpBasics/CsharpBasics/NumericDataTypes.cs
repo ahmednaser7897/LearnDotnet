@@ -20,7 +20,7 @@
             ParsingNumbers();
             NumberFormatting();
             CheckedUnchecked();
-            RandomNumbers();
+            RandomClassMethods();
         }
 
         static void NumericTypesInfo()
@@ -246,17 +246,63 @@
             }
         }
 
-        static void RandomNumbers()
+        static void RandomClassMethods()
         {
-            Console.WriteLine("\n=== Random Numbers ===");
+            Console.WriteLine("\n========== Random Class ==========");
 
+            // Create a Random object
             Random random = new Random();
 
-            Console.WriteLine(random.Next());
+            // Random integer (0 to int.MaxValue)
+            int value1 = random.Next();
+            Console.WriteLine($"Next() = {value1}");
 
-            Console.WriteLine(random.Next(1, 11));
+            // Random integer from 0 to 9
+            int value2 = random.Next(10);
+            Console.WriteLine($"Next(10) = {value2}");
 
-            Console.WriteLine(random.NextDouble());
+            // Random integer from 10 to 20 (20 is excluded)
+            int value3 = random.Next(10, 20);
+            Console.WriteLine($"Next(10, 20) = {value3}");
+
+            // Random double between 0.0 and 1.0
+            double value4 = random.NextDouble();
+            Console.WriteLine($"NextDouble() = {value4}");
+
+            // Random double between 1 and 100
+            double value5 = random.NextDouble() * 99 + 1;
+            Console.WriteLine($"Random double (1-100) = {value5:F2}");
+
+            // Random byte array
+            byte[] bytes = new byte[5];
+            random.NextBytes(bytes);
+
+            Console.Write("NextBytes() = ");
+            foreach (byte b in bytes)
+            {
+                Console.Write($"{b} ");
+            }
+            Console.WriteLine();
+
+            // Generate a random lowercase letter
+            char randomLetter = (char)random.Next('a', 'z' + 1);
+            Console.WriteLine($"Random Letter = {randomLetter}");
+
+            // Generate a random uppercase letter
+            char randomUpper = (char)random.Next('A', 'Z' + 1);
+            Console.WriteLine($"Random Upper Letter = {randomUpper}");
+
+            // Random boolean
+            bool randomBool = random.Next(2) == 1;
+            Console.WriteLine($"Random Boolean = {randomBool}");
+
+            // Simulate rolling a dice
+            int dice = random.Next(1, 7);
+            Console.WriteLine($"Dice Roll = {dice}");
+
+            // Simulate flipping a coin
+            string coin = random.Next(2) == 0 ? "Heads" : "Tails";
+            Console.WriteLine($"Coin Flip = {coin}");
         }
     }
 }

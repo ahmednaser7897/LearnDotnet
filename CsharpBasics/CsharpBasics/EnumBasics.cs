@@ -52,15 +52,27 @@ namespace CsharpFundamentals.CsharpBasics
             D = 4,
             F = 5
         }
-
+        //this enable the var of type Permissions to holde more the one value
+        // to make it work we must set some rulse
+        // 1- use [Flags] attribute
+        // 2- start with none value=0
+        // 3- each value must be a power of 2--> 1,2,4,8,16,32,64,128
+        // we do this so any value can not be the some of 2 or more other values in the enum
+        // so any combination of values will be unique and we can check if a value is in the combination or not
+        // so we can use bitwise or to combine many values
+        // unless i want to use a value that is the same as the combination of 2 or more values in the enum
+        // like Weekend = Saturday | Sunday,//1|2=3 -->1+2=3
         [Flags]
-        enum Permissions
-        {
-            None = 0,
-            Read = 2,
-            Write = 10,
-            Delete,// by defult this will be 11
-            Execute = 20
+        enum WeekDays
+        {   None = 0 ,          //0b_0000_0000 -> 0
+            Saturday = 1,       //0b_0000_0001 -> 1
+            Sunday = 2 ,        //0b_0000_0010 -> 2
+            Monday = 4 ,        //0b_0000_0100 -> 4
+            Tuesday = 8 ,       //0b_0000_1000 -> 8
+            Wednesday = 16 ,    //0b_0001_0000 -> 16
+            Thursday = 32 ,     //0b_0010_0000 -> 32
+            Friday = 64 ,       //0b_0100_0000 -> 64
+            Weekend = Saturday | Sunday,//1|2=3 
         }
 
         static void EnumDeclaration()
@@ -84,6 +96,11 @@ namespace CsharpFundamentals.CsharpBasics
             Console.WriteLine("Today name = " + (Days)2);//Today name = Monday
             //if this value not exist it will be the same value
             Console.WriteLine("Order Status name = " + (Days)9);//Order Status name = 9
+
+            //converting enum to string
+            Console.WriteLine("Today as string = " + today.ToString());
+            //converting string to enum
+            Console.WriteLine(Enum.Parse(typeof(Days), "Monday",true));//Monday)
 
         }
 
@@ -127,8 +144,9 @@ namespace CsharpFundamentals.CsharpBasics
             // Enum.GetValues() returns all values in the enum.
             foreach (Days day in Enum.GetValues(typeof(Days)))
             {
-                Console.WriteLine($"{day} = {(int)day}");
+                Console.Write($"{day} = {(int)day} \t");
             }
+            Console.WriteLine();
         }
 
         static void EnumFlagsExample()
@@ -138,27 +156,39 @@ namespace CsharpFundamentals.CsharpBasics
             // this get the bitwise or of the 2 values
             // and show the name of it if the output in the enum 
             // or an int if the output is not in the enum
-            OrderStatus orderStatus1 = OrderStatus.Delivered | OrderStatus.Processing;//4|2->6
-            Console.WriteLine($"Order Status is {orderStatus1}");
-            OrderStatus orderStatus2 = OrderStatus.Cancelled | OrderStatus.Pending;//5|1->5(Cancelled)
-            Console.WriteLine($"Order Status is {orderStatus2}");
 
-            // [Flags] attribute allows combining multiple enum values.
-            Permissions userPermission = Permissions.Read | Permissions.Write;
+            //1- Bitwis Or -> combine 2 or more values
+            WeekDays day1 = WeekDays.Friday | WeekDays.Saturday;
+            //WeekDays.Friday   |   WeekDays.Saturday 
+            //0b_0100_0000      |   0b_0000_0001    -> 0b_0100_0001 -> 1 | 64 -> 1 + 64 -> 65
+            Console.WriteLine($"WeekDays.Friday | WeekDays.Saturday -> 0b_0100_0000 | 0b_0000_0001 => {0b_0100_0000} | {0b_0000_0001} => {0b_0100_0000} + {0b_0000_0001} => {0b_0100_0000 | 0b_0000_0001}");
+            Console.WriteLine($"WeekDays.Friday | WeekDays.Saturday -> {day1}");
+            //2- Bitwise And -> get the common values between 2 values
+            WeekDays day2 = WeekDays.Friday | WeekDays.Saturday;
+            WeekDays day3 = WeekDays.Friday | WeekDays.Wednesday;
+            Console.WriteLine($"day2(Friday | Saturday) & day3(Friday | Wednesday) -> {day2 & day3}");
+            // check if a value is in the combination of values using bitwise and
+            Console.WriteLine($"day2(Friday | Saturday) & Friday -> {day2 & WeekDays.Friday}");
+            Console.WriteLine($"day2(Friday | Saturday) & Friday -> {day2 & WeekDays.Wednesday}");
+            //to make it bool
+            bool isDayExist = (day2 & WeekDays.Friday) == WeekDays.Friday;
+            Console.WriteLine($"day2(Friday | Saturday) & Friday -> {isDayExist}");
 
-            Console.WriteLine(userPermission);
+            //3- ~ Bitwise Not -> remove a value from the combination of values using bitwise and with not
+            WeekDays day4 = WeekDays.Friday | WeekDays.Wednesday | WeekDays.Sunday| WeekDays.Thursday;
+            Console.WriteLine($"day4(Friday | Wednesday | Sunday | Thursday) -> {day4}");
+            Console.WriteLine($"day4(Friday | Wednesday | Sunday | Thursday) & ~WeekDays.Sunday -> {day4 & ~WeekDays.Sunday}");
+
+            //4- togel operator ^ -> if the value exist in the combination it will remove it, if not it will add it
+            WeekDays day5 = WeekDays.Friday | WeekDays.Wednesday | WeekDays.Sunday | WeekDays.Thursday;
+            Console.WriteLine($"day5(Friday | Wednesday | Sunday | Thursday) -> {day5}");
+            Console.WriteLine($"day5(Friday | Wednesday | Sunday | Thursday) ^WeekDays.Sunday -> {day5 ^ WeekDays.Sunday}");
+            Console.WriteLine($"day5(Friday | Wednesday | Sunday | Thursday) ^WeekDays.Sunday -> {day5 ^ WeekDays.Tuesday}");
 
             // HasFlag() checks whether a flag exists.
-            Console.WriteLine(userPermission.HasFlag(Permissions.Read));
-            Console.WriteLine(userPermission.HasFlag(Permissions.Delete));
+            Console.WriteLine(day1.HasFlag(WeekDays.Saturday));
+            Console.WriteLine(day1.HasFlag(WeekDays.Monday));
 
-            // adding another permission.
-            userPermission |= Permissions.Delete;
-            Console.WriteLine(userPermission);
-
-            // removing a permission.
-            userPermission &= ~Permissions.Write;
-            Console.WriteLine(userPermission);
         }
     }
 }

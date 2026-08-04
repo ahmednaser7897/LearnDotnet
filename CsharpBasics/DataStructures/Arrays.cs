@@ -1,5 +1,4 @@
-﻿
-namespace CsharpFundamentals.CsharpBasics
+﻿namespace CsharpFundamentals.DataStructures
 {
     using System;
     using System.Linq;
