@@ -1,6 +1,6 @@
 ﻿//ITI LECTURE 3 - C# Fundamentals -  Data Reference Types Basics
 //https://www.youtube.com/watch?v=vOpWgihaIVs&list=PLNFDrRZdysFxcO03JtQeIMed4GHFc2YlT&index=3
-namespace CsharpFundamentals.CsharpBasics
+namespace CsharpFundamentals.ObjectOrientedProgramming
 {
     internal class ReferenceDataTypes
     {

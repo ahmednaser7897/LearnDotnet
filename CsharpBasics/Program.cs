@@ -6,32 +6,20 @@
 using CsharpFundamentals.CsharpBasics;
 using CsharpFundamentals.DataStructures;
 using CsharpFundamentals.FileHandling;
-
+using CsharpFundamentals.ObjectOrientedProgramming;
+using CsharpFundamentals.Solid;
 namespace CsharpFundamentals
 {
     class Program
     {
         static void Main(string[] args)
         {
-            TestNamespace.Run();
-            Operators.Run();
-            CharDataType.Run();
-            StringDataType.Run();
-            NumericDataTypes.Run();
-            Selections.Run();
-            Loops.Run();
-            Arrays.Run();
-            Methods.Run();
-            ExceptionHandling.Run();
-            FileBasics.Run();
-            DirectoryAndPath.Run();
-            ArrayListBasics.Run();
-            ListBasics.Run();
-            DictionaryBasics.Run();
-            ValueDataTypsBasics.Run();
-            EnumBasics.Run();
-            StructBasics.Run();
-            ReferenceDataTypes.Run();
+            //BasicsProgram.Run();
+            //OopProgram.Run();
+            //OopProgram.Run();
+            SolidProgram.Run();
+            //DataStructuresProgram.Run();
+            //FileHandlingProgram.Run();
         }
     }
 }

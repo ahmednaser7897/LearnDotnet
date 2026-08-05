@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpsolid\\srp_after.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpsolid\\srp_after.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\listbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\listbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\dictionarybasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\dictionarybasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\exceptionhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\arraylistbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\arraylistbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\filehandling\\streams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\filehandling\\streams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\csharpbasics\\filehandling\\textstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpbasics\\filehandling\\textstreams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,59 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Program.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\Program.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\Program.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwBoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "OopProgram.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T08:09:20.062Z",
+              "WhenOpened": "2026-08-05T11:41:23.855Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListBasics.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ListBasics.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\ListBasics.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ListBasics.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\ListBasics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SRP_After.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpSolid\\SRP_After.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\CsharpSolid\\SRP_After.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpSolid\\SRP_After.cs",
+              "RelativeToolTip": "CsharpBasics\\CsharpSolid\\SRP_After.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAcwDUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T12:34:54.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExceptionHandling.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ExceptionHandling.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\ExceptionHandling.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ExceptionHandling.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\ExceptionHandling.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T12:34:53.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DictionaryBasics.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\DictionaryBasics.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\DictionaryBasics.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\DictionaryBasics.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\DictionaryBasics.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAkwAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T12:32:21.115Z",
+              "WhenOpened": "2026-08-05T11:59:28.113Z",
               "EditorCaption": ""
             },
             {
@@ -104,42 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArrayListBasics.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ArrayListBasics.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\ArrayListBasics.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\ArrayListBasics.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\ArrayListBasics.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAMwM8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T12:03:44.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TextStreams.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\FileHandling\\TextStreams.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\FileHandling\\TextStreams.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\FileHandling\\TextStreams.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\FileHandling\\TextStreams.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T11:48:11.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Streams.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\FileHandling\\Streams.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpBasics\\FileHandling\\Streams.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpBasics\\FileHandling\\Streams.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpBasics\\FileHandling\\Streams.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T11:48:10.879Z"
             }
           ]
         }
