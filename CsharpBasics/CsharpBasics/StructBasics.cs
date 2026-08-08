@@ -139,6 +139,7 @@ namespace CsharpFundamentals.CsharpBasics
             Console.WriteLine($"c7 after is [{c7}]");//c7 after is [Real is 4 and Img is 6]
             Console.WriteLine($"c10 is [{c10}]");//c10 is [Real is 4 and Img is 6]
         }
+
         static void StructPassing()
         {   // struct is in the heap every one is self alone not refrance
             Complex c1 = new Complex(1, 2);

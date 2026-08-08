@@ -8,8 +8,8 @@ internal static class OopProgram
 {
     public static void Run()
     {
-        ClassesAndObjects.Run();
-        AccessModifiersAndMembers.Run();
+        //ClassesAndObjects.Run();
+        //AccessModifiersAndMembers.Run();
         //ConstructorsAndInitialization.Run();
         //Encapsulation.Run();
         //Inheritance.Run();

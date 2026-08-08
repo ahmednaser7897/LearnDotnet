@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OopProgram.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T11:35:54.614Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
