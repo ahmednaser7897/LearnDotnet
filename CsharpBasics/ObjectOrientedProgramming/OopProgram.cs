@@ -12,11 +12,17 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
             //ObjectMethodsAndEquality.Run();
             //CopySemantics.Run();
             //FildesVsProperties.Run();
+            //Delegate.Run();
+            //Events.Run();
+            //Indexers.Run();
+            //Finalizers.Run();
+            NestedTypes.Run();
             //TestAccessModifier.Run();
             //Generics.Run();
             //InheritanceBasics.Run();
-            Polymorphism.Run();
+            //Polymorphism.Run();
         }
+       
     }
 }
 

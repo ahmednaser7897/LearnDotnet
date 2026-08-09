@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
+  "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\nestedtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\nestedtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\oopprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\polymorphism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\csharpoop\\patternmatchingandtypechecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\csharpoop\\patternmatchingandtypechecks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\objectorientedprogramming\\finalizers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\objectorientedprogramming\\finalizers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OopProgram.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
               "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
               "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\OopProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-08T11:35:54.614Z",
               "IsPinned": true,
@@ -40,28 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Polymorphism.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\Polymorphism.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\Polymorphism.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\Polymorphism.cs",
-              "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\Polymorphism.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NestedTypes.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\NestedTypes.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\NestedTypes.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\NestedTypes.cs",
+              "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\NestedTypes.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:57:21.509Z",
+              "WhenOpened": "2026-08-09T13:38:46.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PatternMatchingAndTypeChecks.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpOop\\PatternMatchingAndTypeChecks.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\CsharpOop\\PatternMatchingAndTypeChecks.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\CsharpOop\\PatternMatchingAndTypeChecks.cs",
-              "RelativeToolTip": "CsharpBasics\\CsharpOop\\PatternMatchingAndTypeChecks.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAUwB8AAAApAAAAAAAAAA==",
+              "Title": "Finalizers.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\Finalizers.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\ObjectOrientedProgramming\\Finalizers.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\ObjectOrientedProgramming\\Finalizers.cs",
+              "RelativeToolTip": "CsharpBasics\\ObjectOrientedProgramming\\Finalizers.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:56:22.092Z",
+              "WhenOpened": "2026-08-09T12:44:33.704Z",
               "EditorCaption": ""
             },
             {

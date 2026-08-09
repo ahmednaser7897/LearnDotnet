@@ -10,3 +10,15 @@ D:\programing\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLib
 D:\programing\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\refint\TestClassLibrary.dll
 D:\programing\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.pdb
 D:\programing\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\ref\TestClassLibrary.dll
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\bin\Debug\net10.0\TestClassLibrary.deps.json
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\bin\Debug\net10.0\TestClassLibrary.dll
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\bin\Debug\net10.0\TestClassLibrary.pdb
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.AssemblyInfoInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.AssemblyInfo.cs
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.csproj.CoreCompileInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.sourcelink.json
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.dll
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\refint\TestClassLibrary.dll
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.pdb
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\ref\TestClassLibrary.dll
