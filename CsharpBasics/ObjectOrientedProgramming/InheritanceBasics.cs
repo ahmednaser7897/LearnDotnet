@@ -82,9 +82,16 @@
     }
     class Employee : Human
     {
+        public string Name {  get; set; }
+        public decimal Salary { get; set; }
+        public int Id { get; set; }
         public override void Die()
         {
             Console.WriteLine($"Employee is Dieing");
         }
+        public override string ToString()
+        {
+            return $"Nd : {Id} Name {Name} Salary {Salary}";
+        } 
     }
 }

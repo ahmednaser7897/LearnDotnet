@@ -20,6 +20,7 @@ namespace CsharpFundamentals.CsharpBasics
             //ValueDataTypsBasics.Run();
             //EnumBasics.Run();
             //StructBasics.Run();
+            ExtensionMethods.Run();
         }
     }
 }

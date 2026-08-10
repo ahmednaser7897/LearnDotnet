@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections;
 
 namespace CsharpFundamentals.ObjectOrientedProgramming
 {
@@ -27,6 +25,12 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
             Console.WriteLine("-------- String With wrong Length ----------");
             var ip5 = new IP("34 5.9 77.555");
             Console.WriteLine(ip5 .Address);
+            //this will not work
+            //foreach statement cannot operate on variables of type 'IP' because 'IP' does not contain a public instance or extension definition for 'GetEnumerator'
+            //foreach (var ip in ip5)
+            //{
+            //    Console.WriteLine(ip);
+            //}
         }
     }
     class IP

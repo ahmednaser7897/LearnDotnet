@@ -1,268 +1,366 @@
-namespace CsharpFundamentals.ObjectOrientedProgramming
+namespace CsharpFundamentals.ObjectOrientedProgramming.l
 {
-    internal class AbstractClass
+    internal class Abstract
     {
         public static void Run()
         {
-            Geometric g = new Circle(1.0);
+            // ============================================================
+            // ABSTRACT CLASS
+            // ============================================================
 
-            Console.WriteLine(g.GetArea());
-            Console.WriteLine(g.GetPerimeter());
+            // We CANNOT create an object directly from an abstract class.
+            // Animal animal = new Animal(); // ❌ Compile-time error
+
+            // But we can use an abstract class as a reference type.
+            Animal animal1 = new Dog("Max", 3);
+
+            animal1.Eat();
+            animal1.Sleep();
+            animal1.MakeSound();
+
+            Console.WriteLine($"Animal Name: {animal1.Name}");
+            Console.WriteLine($"Animal Age: {animal1.Age}");
+
+            Console.WriteLine();
 
 
-            Geometric g1 = new Rectangle(1.0, 1.0);
+            // ============================================================
+            // POLYMORPHISM WITH ABSTRACT CLASSES
+            // ============================================================
 
-            Console.WriteLine(g1.GetArea());
-            Console.WriteLine(g1.GetPerimeter());
+            // The reference type is Animal,
+            // but the actual object is Dog.
+            Animal animal2 = new Cat("Luna", 2);
+
+            animal2.Eat();
+            animal2.Sleep();
+            animal2.MakeSound();
+
+            Console.WriteLine();
 
 
-            Console.WriteLine(GeometricEquals(g, g1));
-        }
+            // ============================================================
+            // USING THE CONCRETE TYPE
+            // ============================================================
+
+            Dog dog = new Dog("Rocky", 5);
+
+            dog.Eat();
+            dog.Sleep();
+            dog.MakeSound();
+
+            // Dog-specific method.
+            dog.Bark();
+
+            Console.WriteLine();
 
 
-        public static bool GeometricEquals(
-            Geometric geometric1,
-            Geometric geometric2)
-        {
-            return geometric1.GetArea() == geometric2.GetArea();
+            // ============================================================
+            // ABSTRACT PROPERTIES
+            // ============================================================
+
+            Animal animal3 = new Dog("Buddy", 4);
+
+            // Name and Age are implemented by Dog.
+            Console.WriteLine($"Name: {animal3.Name}");
+            Console.WriteLine($"Age: {animal3.Age}");
+
+            Console.WriteLine();
+
+
+            // ============================================================
+            // ABSTRACT STATIC METHOD / MEMBER
+            // ============================================================
+
+            // Abstract members cannot be static.
+            // They must belong to an object and be overridden
+            // by a derived class.
         }
     }
 
 
-    // ============================================================
+    // ====================================================================
     // ABSTRACT CLASS
-    // ============================================================
+    // ====================================================================
 
-    abstract class Geometric
+    // An abstract class is a class that cannot be instantiated directly.
+    //
+    // It is usually used as a base class for other classes.
+    //
+    // An abstract class can contain:
+    // - Fields
+    // - Properties
+    // - Constructors
+    // - Concrete methods
+    // - Abstract methods
+    // - Abstract properties
+    // - Static members
+    // - Constants
+    abstract class Animal
     {
-        private string color;
+        // ================================================================
+        // FIELD
+        // ================================================================
+
+        // Abstract classes can have normal fields.
+        protected string species;
 
 
-        // Default constructor
-        public Geometric()
-            : this("White", false)
+        // ================================================================
+        // PROPERTY
+        // ================================================================
+
+        // Normal property.
+        // Derived classes automatically inherit it.
+        public string Name { get; set; }
+
+
+        // ================================================================
+        // ABSTRACT PROPERTY
+        // ================================================================
+
+        // An abstract property has no implementation.
+        //
+        // Every non-abstract derived class must provide
+        // an implementation for it.
+        public abstract int Age { get; }
+
+
+        // ================================================================
+        // CONSTRUCTOR
+        // ================================================================
+
+        // Abstract classes CAN have constructors.
+        //
+        // The constructor runs when a derived class object is created.
+        protected Animal(string name)
         {
+            Name = name;
+            species = "Animal";
+
+            Console.WriteLine("Animal Constructor");
         }
 
 
-        // Parameterized constructor
-        public Geometric(string color, bool filled)
+        // ================================================================
+        // CONCRETE METHOD
+        // ================================================================
+
+        // An abstract class can have normal methods
+        // with a complete implementation.
+        public void Eat()
         {
-            this.color = color;
+            Console.WriteLine($"{Name} is eating.");
         }
 
 
-        // Abstract methods
-        // Child classes MUST implement them.
-
-        public abstract double GetArea();
-
-        public abstract double GetPerimeter();
-
-
-        // Property instead of Java Getter/Setter
-
-        public string Color
+        public void Sleep()
         {
-            get
-            {
-                return color;
-            }
-
-            set
-            {
-                color = value;
-            }
+            Console.WriteLine($"{Name} is sleeping.");
         }
 
 
-        // ToString()
-        public override string ToString()
+        // ================================================================
+        // ABSTRACT METHOD
+        // ================================================================
+
+        // An abstract method has NO implementation.
+        //
+        // The derived class MUST override it.
+        public abstract void MakeSound();
+
+
+        // ================================================================
+        // VIRTUAL METHOD
+        // ================================================================
+
+        // A virtual method has a default implementation.
+        //
+        // A derived class MAY override it, but it is not required.
+        public virtual void Move()
         {
-            return $"Geometric [color={color}]";
+            Console.WriteLine($"{Name} is moving.");
         }
     }
 
 
-    // ============================================================
-    // CIRCLE
-    // ============================================================
+    // ====================================================================
+    // DOG
+    // ====================================================================
 
-    class Circle : Geometric
+    // Dog inherits from the abstract Animal class.
+    //
+    // Because Dog is NOT abstract, it must implement
+    // all abstract members from Animal.
+    class Dog : Animal
     {
-        private double radius;
-
-
-        // Default constructor
-        public Circle()
-            : this(1.0)
+        // Constructor of Dog.
+        //
+        // base(name) calls the constructor of Animal.
+        public Dog(string name, int age)
+            : base(name)
         {
+            AgeValue = age;
+
+            Console.WriteLine("Dog Constructor");
         }
 
 
-        // Constructor
-        public Circle(double radius)
-        {
-            Radius = radius;
-        }
+        // ================================================================
+        // IMPLEMENTING ABSTRACT PROPERTY
+        // ================================================================
 
+        private int AgeValue;
 
-        // Constructor
-        public Circle(
-            double radius,
-            string color,
-            bool filled)
-            : base(color, filled)
-        {
-            Radius = radius;
-        }
-
-
-        // Implement abstract method
-        public override double GetArea()
-        {
-            return Math.PI * radius * radius;
-        }
-
-
-        // Implement abstract method
-        public override double GetPerimeter()
-        {
-            return 2 * Math.PI * radius;
-        }
-
-
-        // Radius property
-        public double Radius
+        // Dog provides the implementation of Animal.Age.
+        public override int Age
         {
             get
             {
-                return radius;
-            }
-
-            set
-            {
-                if (value > 0)
-                    radius = value;
-                else
-                    radius = 0;
+                return AgeValue;
             }
         }
 
 
-        // Calculated property
-        public double Diameter
+        // ================================================================
+        // IMPLEMENTING ABSTRACT METHOD
+        // ================================================================
+
+        // override is REQUIRED because MakeSound()
+        // was declared abstract in Animal.
+        public override void MakeSound()
         {
-            get
-            {
-                return 2 * radius;
-            }
+            Console.WriteLine($"{Name} says: Woof!");
         }
 
 
-        public override string ToString()
+        // ================================================================
+        // OVERRIDING VIRTUAL METHOD
+        // ================================================================
+
+        // Move() was virtual, so overriding it is optional.
+        public override void Move()
         {
-            return base.ToString()
-                   + $" Circle [radius={radius}]";
+            Console.WriteLine($"{Name} is running.");
+        }
+
+
+        // ================================================================
+        // DOG-SPECIFIC METHOD
+        // ================================================================
+
+        // This method exists only in Dog.
+        public void Bark()
+        {
+            Console.WriteLine($"{Name} is barking.");
         }
     }
 
 
-    // ============================================================
-    // RECTANGLE
-    // ============================================================
+    // ====================================================================
+    // CAT
+    // ====================================================================
 
-    class Rectangle : Geometric
+    class Cat : Animal
     {
-        private double width;
-        private double height;
+        private int AgeValue;
 
 
-        // Default constructor
-        public Rectangle()
-            : this(1.0, 1.0)
+        // Constructor.
+        //
+        // base(name) calls the Animal constructor.
+        public Cat(string name, int age)
+            : base(name)
         {
+            AgeValue = age;
+
+            Console.WriteLine("Cat Constructor");
         }
 
 
-        // Constructor
-        public Rectangle(
-            double width,
-            double height)
-            : base()
-        {
-            Height = height;
-            Width = width;
-        }
+        // ================================================================
+        // IMPLEMENTING ABSTRACT PROPERTY
+        // ================================================================
 
-
-        // Constructor
-        public Rectangle(
-            double width,
-            double height,
-            string color,
-            bool filled)
-            : base(color, filled)
-        {
-            Height = height;
-            Width = width;
-        }
-
-
-        // Implement abstract method
-        public override double GetArea()
-        {
-            return width * height;
-        }
-
-
-        // Implement abstract method
-        public override double GetPerimeter()
-        {
-            return 2 * (width + height);
-        }
-
-
-        // Width property
-        public double Width
+        public override int Age
         {
             get
             {
-                return width;
-            }
-
-            set
-            {
-                if (value > 0)
-                    width = value;
-                else
-                    width = 0;
+                return AgeValue;
             }
         }
 
 
-        // Height property
-        public double Height
+        // ================================================================
+        // IMPLEMENTING ABSTRACT METHOD
+        // ================================================================
+
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name} says: Meow!");
+        }
+
+
+        // ================================================================
+        // USING THE INHERITED VIRTUAL METHOD
+        // ================================================================
+
+        // We don't have to override Move().
+        //
+        // If we don't override it, the implementation from
+        // Animal will be used.
+    }
+
+
+    // ====================================================================
+    // ANOTHER ABSTRACT CLASS
+    // ====================================================================
+
+    // An abstract class can inherit from another abstract class.
+    abstract class Mammal : Animal
+    {
+        protected Mammal(string name)
+            : base(name)
+        {
+        }
+
+        // Mammal can leave abstract members unimplemented.
+        //
+        // Because Mammal is also abstract, it does NOT have to
+        // implement Animal.MakeSound() or Animal.Age.
+    }
+
+
+    // ====================================================================
+    // CONCRETE CLASS INHERITING FROM MAMMAL
+    // ====================================================================
+
+    class Human : Mammal
+    {
+        private int age;
+
+
+        public Human(string name, int age)
+            : base(name)
+        {
+            this.age = age;
+        }
+
+
+        // Implementing the abstract property from Animal.
+        public override int Age
         {
             get
             {
-                return height;
-            }
-
-            set
-            {
-                if (value > 0)
-                    height = value;
-                else
-                    height = 0;
+                return age;
             }
         }
 
 
-        public override string ToString()
+        // Implementing the abstract method from Animal.
+        public override void MakeSound()
         {
-            return base.ToString()
-                   + $" Rectangle [width={width}, height={height}]";
+            Console.WriteLine($"{Name} says: Hello!");
         }
     }
 }
