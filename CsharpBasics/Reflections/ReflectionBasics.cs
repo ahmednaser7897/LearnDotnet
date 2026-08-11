@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using MyFirstExtension;
+using System.Reflection;
 
 namespace CsharpFundamentals.Reflections
 {
@@ -6,6 +7,8 @@ namespace CsharpFundamentals.Reflections
     {
         public static void Run()
         {
+            FirstReflectionDemo.PrintAssemblyData();
+
             // ReflectionBasics();
             // Console.WriteLine("==========================================");
 

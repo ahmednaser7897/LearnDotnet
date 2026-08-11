@@ -19,7 +19,7 @@
             //Delegate.Run();
             //Events.Run();
             //Indexers.Run();
-            //EnumeratorsAndIterators.Run();
+            EnumeratorsAndIterators.Run();
             //Finalizers.Run();
             //NestedTypes.Run();
             //TestAccessModifier.Run();
