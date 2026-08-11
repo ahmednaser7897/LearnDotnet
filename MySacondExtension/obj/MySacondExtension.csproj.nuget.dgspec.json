@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\flutter_work\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj": {}
+    "D:\\programing\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj": {}
   },
   "projects": {
-    "E:\\flutter_work\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj": {
+    "D:\\programing\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\flutter_work\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj",
+        "projectUniqueName": "D:\\programing\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj",
         "projectName": "MySacondExtension",
-        "projectPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj",
-        "packagesPath": "C:\\Users\\xps\\.nuget\\packages\\",
-        "outputPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\MySacondExtension\\obj\\",
+        "projectPath": "D:\\programing\\dotnet\\LearnDotnet\\MySacondExtension\\MySacondExtension.csproj",
+        "packagesPath": "C:\\Users\\COMPUMARTS\\.nuget\\packages\\",
+        "outputPath": "D:\\programing\\dotnet\\LearnDotnet\\MySacondExtension\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\xps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\COMPUMARTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

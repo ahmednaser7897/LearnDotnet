@@ -42,3 +42,9 @@ E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MyFirstExtensi
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MySacondExtension.pdb
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\ar.txt
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\en.txt
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\ar.txt
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\en.txt
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MyFirstExtension.dll
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MySacondExtension.dll
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MyFirstExtension.pdb
+D:\programing\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MySacondExtension.pdb

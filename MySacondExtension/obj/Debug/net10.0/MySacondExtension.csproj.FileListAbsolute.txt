@@ -10,3 +10,15 @@ E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondE
 E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\refint\MySacondExtension.dll
 E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.pdb
 E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\ref\MySacondExtension.dll
+D:\programing\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.deps.json
+D:\programing\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.dll
+D:\programing\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.pdb
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.GeneratedMSBuildEditorConfig.editorconfig
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.AssemblyInfoInputs.cache
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.AssemblyInfo.cs
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.csproj.CoreCompileInputs.cache
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.sourcelink.json
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.dll
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\refint\MySacondExtension.dll
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.pdb
+D:\programing\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\ref\MySacondExtension.dll
