@@ -1,11 +1,11 @@
-﻿
-namespace CsharpFundamentals.ObjectOrientedProgramming
+﻿namespace CsharpFundamentals.ObjectOrientedProgramming
 {
     class OopProgram
     {
         public static void Run()
         {
             //OppBasics.Run();
+            //OpreatorOverloading.Run();
             //ConstructorsAndInitialization.Run();
             //Encapsulation.Run();
             //InheritanceBasics.Run();
@@ -13,7 +13,7 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
             //Interfaces.Run();;
             //StaticClasses.Run();
             //Polymorphism.Run();
-            ObjectMethodsAndEquality.Run();
+            //ObjectMethodsAndEquality.Run();
             //CopySemantics.Run();
             //FildesVsProperties.Run();
             //Delegate.Run();
@@ -24,7 +24,7 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
             //NestedTypes.Run();
             //TestAccessModifier.Run();
             //Generics.Run();
-
+            Records.Run();
         }
 
     }

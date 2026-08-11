@@ -4,6 +4,7 @@
 
 using CsharpFundamentals.CsharpBasics;
 using CsharpFundamentals.ObjectOrientedProgramming;
+using CsharpFundamentals.Reflections;
 
 namespace CsharpFundamentals
 {
@@ -12,11 +13,12 @@ namespace CsharpFundamentals
         static void Main(string[] args)
         {
             //BasicsProgram.Run();
-            OopProgram.Run();
+            //OopProgram.Run();
             //KeyWordsProgram.Run();
             //SolidProgram.Run();
             //DataStructuresProgram.Run();
             //FileHandlingProgram.Run();
+            ReflectionProgram.Run();
         }
     }
 }

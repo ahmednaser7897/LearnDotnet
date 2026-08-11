@@ -1,0 +1,3 @@
+﻿file= en file
+edit= en edit
+view= en view

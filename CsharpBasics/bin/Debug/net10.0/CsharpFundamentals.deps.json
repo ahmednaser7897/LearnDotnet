@@ -8,10 +8,30 @@
     ".NETCoreApp,Version=v10.0": {
       "CsharpFundamentals/1.0.0": {
         "dependencies": {
+          "MyFirstExtension": "1.0.0",
           "TestClassLibrary": "1.0.0"
         },
         "runtime": {
           "CsharpFundamentals.dll": {}
+        }
+      },
+      "MyFirstExtension/1.0.0": {
+        "dependencies": {
+          "MySacondExtension": "1.0.0"
+        },
+        "runtime": {
+          "MyFirstExtension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MySacondExtension/1.0.0": {
+        "runtime": {
+          "MySacondExtension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "TestClassLibrary/1.0.0": {
@@ -26,6 +46,16 @@
   },
   "libraries": {
     "CsharpFundamentals/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyFirstExtension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySacondExtension/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

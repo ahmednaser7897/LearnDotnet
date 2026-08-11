@@ -1,0 +1,3 @@
+﻿file= ar file
+edit= ar edit
+view= ar view

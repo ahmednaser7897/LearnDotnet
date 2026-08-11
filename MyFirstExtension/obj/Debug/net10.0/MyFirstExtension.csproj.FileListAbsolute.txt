@@ -1,0 +1,16 @@
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\bin\Debug\net10.0\MyFirstExtension.deps.json
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\bin\Debug\net10.0\MyFirstExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\bin\Debug\net10.0\MyFirstExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\bin\Debug\net10.0\MySacondExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\bin\Debug\net10.0\MySacondExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.csproj.AssemblyReference.cache
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.GeneratedMSBuildEditorConfig.editorconfig
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.AssemblyInfoInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.AssemblyInfo.cs
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.csproj.CoreCompileInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.sourcelink.json
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstE.791C5135.Up2Date
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\refint\MyFirstExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\MyFirstExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\MyFirstExtension\obj\Debug\net10.0\ref\MyFirstExtension.dll

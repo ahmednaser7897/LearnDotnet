@@ -1,0 +1,12 @@
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.deps.json
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\bin\Debug\net10.0\MySacondExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.GeneratedMSBuildEditorConfig.editorconfig
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.AssemblyInfoInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.AssemblyInfo.cs
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.csproj.CoreCompileInputs.cache
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.sourcelink.json
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\refint\MySacondExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\MySacondExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\MySacondExtension\obj\Debug\net10.0\ref\MySacondExtension.dll

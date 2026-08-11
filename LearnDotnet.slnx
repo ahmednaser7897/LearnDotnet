@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="CsharpBasics/CsharpFundamentals.csproj" />
+  <Project Path="MyFirstExtension/MyFirstExtension.csproj" Id="b71a0ec0-907f-41e2-a911-3a0a46634c26" />
+  <Project Path="MySacondExtension/MySacondExtension.csproj" Id="dfc56832-549f-420b-88ae-901c89a64891" />
   <Project Path="TestClassLibrary/TestClassLibrary.csproj" Id="48bd23f8-5d11-4f68-8b7c-3edd9f1cc0bd" />
 </Solution>

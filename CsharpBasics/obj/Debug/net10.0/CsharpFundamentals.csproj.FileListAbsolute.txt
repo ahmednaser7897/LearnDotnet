@@ -36,3 +36,9 @@ E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\TestClassLibra
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\TestClassLibrary.pdb
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpFundamentals.csproj.AssemblyReference.cache
 E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\obj\Debug\net10.0\CsharpFu.DF5A9718.Up2Date
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MyFirstExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MySacondExtension.dll
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MyFirstExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\MySacondExtension.pdb
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\ar.txt
+E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\bin\Debug\net10.0\Reflections\Resources\en.txt

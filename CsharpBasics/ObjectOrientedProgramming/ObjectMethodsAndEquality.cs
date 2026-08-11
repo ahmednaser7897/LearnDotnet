@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace CsharpFundamentals.ObjectOrientedProgramming;
 
 internal static class ObjectMethodsAndEquality

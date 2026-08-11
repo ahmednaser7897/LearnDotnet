@@ -73,7 +73,7 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
     // ============================================================
 
     class Address
-    {
+    { 
         public string City { get; set; }
 
 
