@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
+  "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\reflections\\attributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\reflections\\attributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\datastructures\\datastructuresprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\datastructures\\datastructuresprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\reflections\\reflectionprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\reflections\\reflectionprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\reflections\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\reflections\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\datastructures\\tuplebasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\datastructures\\tuplebasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\reflections\\reflectionbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\reflections\\reflectionbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\datastructures\\setbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\datastructures\\setbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B71A0EC0-907F-41E2-A911-3A0A46634C26}|MyFirstExtension\\MyFirstExtension.csproj|d:\\programing\\dotnet\\learndotnet\\myfirstextension\\firstreflectiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B71A0EC0-907F-41E2-A911-3A0A46634C26}|MyFirstExtension\\MyFirstExtension.csproj|solutionrelative:myfirstextension\\firstreflectiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\datastructures\\stackbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\datastructures\\stackbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|e:\\flutter_work\\dotnet\\learndotnet\\csharpbasics\\datastructures\\listbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\datastructures\\listbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReflectionProgram.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\ReflectionProgram.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Reflections\\ReflectionProgram.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\ReflectionProgram.cs",
-              "RelativeToolTip": "CsharpBasics\\Reflections\\ReflectionProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\Program.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\Program.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\Program.cs",
+              "RelativeToolTip": "CsharpBasics\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T11:43:54.767Z",
+              "WhenOpened": "2026-08-12T11:29:37.855Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataStructuresProgram.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\DataStructuresProgram.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\DataStructures\\DataStructuresProgram.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\DataStructuresProgram.cs",
+              "RelativeToolTip": "CsharpBasics\\DataStructures\\DataStructuresProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:26:35.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TupleBasics.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\TupleBasics.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\DataStructures\\TupleBasics.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\TupleBasics.cs",
+              "RelativeToolTip": "CsharpBasics\\DataStructures\\TupleBasics.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAD4v4sAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:29:02.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetBasics.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\SetBasics.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\DataStructures\\SetBasics.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\SetBasics.cs",
+              "RelativeToolTip": "CsharpBasics\\DataStructures\\SetBasics.cs",
+              "ViewState": "AgIAAAICAAAAAAAAAAAAABcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:27:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StackBasics.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\StackBasics.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\DataStructures\\StackBasics.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\StackBasics.cs",
+              "RelativeToolTip": "CsharpBasics\\DataStructures\\StackBasics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:27:00.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListBasics.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\ListBasics.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\DataStructures\\ListBasics.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\CsharpBasics\\DataStructures\\ListBasics.cs",
+              "RelativeToolTip": "CsharpBasics\\DataStructures\\ListBasics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T13:26:53.867Z",
               "EditorCaption": ""
             },
             {
@@ -57,58 +126,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReflectionBasics.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\ReflectionBasics.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Reflections\\ReflectionBasics.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\ReflectionBasics.cs",
-              "RelativeToolTip": "CsharpBasics\\Reflections\\ReflectionBasics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T21:22:37.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\Models.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Reflections\\Models.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\Models.cs",
-              "RelativeToolTip": "CsharpBasics\\Reflections\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T21:22:36.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Attributes.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\Attributes.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Reflections\\Attributes.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Reflections\\Attributes.cs",
-              "RelativeToolTip": "CsharpBasics\\Reflections\\Attributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T21:21:43.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FirstReflectionDemo.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\MyFirstExtension\\FirstReflectionDemo.cs",
-              "RelativeDocumentMoniker": "MyFirstExtension\\FirstReflectionDemo.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\MyFirstExtension\\FirstReflectionDemo.cs",
-              "RelativeToolTip": "MyFirstExtension\\FirstReflectionDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-11T20:53:10.828Z",
-              "EditorCaption": ""
             }
           ]
         }

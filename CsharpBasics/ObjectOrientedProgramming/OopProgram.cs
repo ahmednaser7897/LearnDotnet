@@ -24,7 +24,6 @@
             //NestedTypes.Run();
             //TestAccessModifier.Run();
             //Generics.Run();
-            Records.Run();
         }
 
     }

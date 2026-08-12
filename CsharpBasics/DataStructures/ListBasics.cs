@@ -76,11 +76,12 @@ namespace CsharpFundamentals.DataStructures
             // Remove
             //-------------------------------------------------
 
-            numbers.Remove(20);
+            numbers.Remove(2);
 
             Console.WriteLine("\nAfter Remove(20):");
 
             Print(numbers);
+
 
             //-------------------------------------------------
             // RemoveAt
@@ -99,6 +100,19 @@ namespace CsharpFundamentals.DataStructures
             numbers.RemoveRange(0, 2);
 
             Console.WriteLine("\nAfter RemoveRange():");
+
+            Print(numbers);
+
+            //-------------------------------------------------
+            // RemoveAll
+            //-------------------------------------------------
+            numbers.AddRange([23, 45, 40,44,67]);
+            Console.WriteLine("\nBefore RemoveAll(20):");
+
+            Print(numbers);
+            numbers.RemoveAll(x=> x>40);
+
+            Console.WriteLine("\nAfter RemoveAll(20):");
 
             Print(numbers);
 

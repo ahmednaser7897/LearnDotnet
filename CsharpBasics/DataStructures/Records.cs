@@ -1,4 +1,4 @@
-﻿namespace CsharpFundamentals.ObjectOrientedProgramming
+﻿namespace CsharpFundamentals.DataStructures
 {
     internal class Records
     {
@@ -6,16 +6,19 @@
         {
             NormalClassExample();
             Console.WriteLine("=======================================");
-
             RecordExample();
             Console.WriteLine("=======================================");
-
+            PositionalRecordExample();
+            Console.WriteLine("=======================================");
+            RecordStructExample();
+            Console.WriteLine("=======================================");
             RecordShallowCopy();
             Console.WriteLine("=======================================");
         }
 
         public static void NormalClassExample()
         {
+            Console.WriteLine($"------------ Normal Class Example ------------");
             // Dictionary works using HashCode.
             // So, if we try to add a key whose hash code already exists
             // for another key with the same hash code.
@@ -59,13 +62,13 @@
             // return HashCode.Combine(Real, Img);
             //
             // This will cause an error.
-            dic2.Add(c2, "two");
+            //dic2.Add(c2, "two");
 
             Console.WriteLine($"dic2.Count --> {dic2.Count}");
         }
-
         public static void RecordExample()
         {
+            Console.WriteLine($"------------ Record Example ------------");
             ComplexRecord c1 = new ComplexRecord(1, 1);
             ComplexRecord c2 = new ComplexRecord(1, 1);
 
@@ -91,8 +94,12 @@
             // dic1.Add(c2, "two");
 
             Console.WriteLine($"dic2.Count --> {dic1.Count}");
-
+        }
+        public static void PositionalRecordExample()
+        {
+            Console.WriteLine($"------------ Positional Record Example ------------");
             // This will not work because c1 is not a positional record.
+            //Complex c1 = new Complex(1, 1);
             // var (x, y) = c1;
 
             var c3 = new PointRecord(2, 4);
@@ -118,9 +125,79 @@
 
             Console.WriteLine($"c5 --> {c5}");
         }
+        public static void RecordStructExample()
+        {
+            Console.WriteLine($"------------ Record Struct Example ------------");
 
+            PointRecordStruct p1 = new PointRecordStruct(10, 20);
+            PointRecordStruct p2 = new PointRecordStruct(10, 20);
+
+            //-------------------------------------------------
+            // Value Equality
+            //-------------------------------------------------
+
+            // record struct compares values automatically.
+            // We do not need to override Equals() or ==.
+            Console.WriteLine($"p1 == p2 --> {p1 == p2}");
+            Console.WriteLine($"p1.Equals(p2) --> {p1.Equals(p2)}");
+
+            //-------------------------------------------------
+            // ToString
+            //-------------------------------------------------
+
+            // record struct gives us a useful ToString()
+            // automatically like a normal record.
+            Console.WriteLine($"p1 --> {p1}");
+
+            //-------------------------------------------------
+            // GetHashCode
+            //-------------------------------------------------
+
+            // Equal record structs generate the same hash code.
+            Console.WriteLine($"p1.GetHashCode() --> {p1.GetHashCode()}");
+            Console.WriteLine($"p2.GetHashCode() --> {p2.GetHashCode()}");
+
+            //-------------------------------------------------
+            // Deconstruction
+            //-------------------------------------------------
+
+            // Positional record struct supports deconstruction.
+            var (x, y) = p1;
+
+            Console.WriteLine($"x --> {x}");
+            Console.WriteLine($"y --> {y}");
+
+            //-------------------------------------------------
+            // Value Type
+            //-------------------------------------------------
+
+            // record struct is a VALUE TYPE.
+            // p3 gets its own copy of p1.
+            PointRecordStruct p3 = p1;
+
+            Console.WriteLine($"p1 --> {p1}");
+            Console.WriteLine($"p3 --> {p3}");
+
+            //-------------------------------------------------
+            // Changing Values
+            //-------------------------------------------------
+
+            // Unlike a positional record class,
+            // positional record struct properties are mutable
+            // by default.
+            p3.x = 100;
+
+            Console.WriteLine("\nAfter Changing p3:");
+
+            Console.WriteLine($"p1 --> {p1}");
+            Console.WriteLine($"p3 --> {p3}");
+
+            // p1 does not change because record struct
+            // is a value type and p3 has its own copy.
+        }
         public static void RecordShallowCopy()
         {
+            Console.WriteLine($"------------ Record Shallow Copy ------------");
             Student student = new Student(
                 "ahmed",
                 25,
@@ -142,7 +219,16 @@
             Console.WriteLine(student);
         }
     }
-
+    // when creating a record its look like creating class with all the next 
+    // the makes the class look live value type
+    // override object equal
+    // override object GetHashCode
+    // override object ToString()
+    // override object == , !=
+    // implemenr IEquatable
+    // but by defults it not immutable you can change the mempers values
+    // unless you make it get only without set
+    // or using Positional records
     record ComplexRecord
     {
         public int Real;
@@ -160,6 +246,36 @@
     // It helps us enable deconstruction.
     // It helps us enable immutability.
     record PointRecord(int x, int y);
+
+
+    //---------------------------------------------------------
+    // Positional Record Struct
+    //---------------------------------------------------------
+
+    // record struct combines features from records and structs.
+    //
+    // Like record:
+    // - Gives value equality automatically.
+    // - Overrides Equals().
+    // - Overrides GetHashCode().
+    // - Overrides ToString().
+    // - Supports == and !=.
+    // - Supports deconstruction.
+    // - Supports "with".
+    //
+    // Like struct:
+    // - It is a VALUE TYPE.
+    // - Assignment copies the value instead of the reference.
+    //
+    // Important:
+    // A positional record struct is mutable by default.
+    // Its generated properties have get and set.
+    //
+    // If we want it to be immutable, we can use:
+    //
+    // readonly record struct PointRecordStruct(int x, int y);
+    //
+    record struct PointRecordStruct(int x, int y);
 
     record Student(string name, int age, StudentAddress address);
 

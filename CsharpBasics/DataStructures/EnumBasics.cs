@@ -1,7 +1,7 @@
 ﻿//ITI LECTURE 3 - C# Fundamentals -  Enum Basics
 //https://www.youtube.com/watch?v=vOpWgihaIVs&list=PLNFDrRZdysFxcO03JtQeIMed4GHFc2YlT&index=3
 
-namespace CsharpFundamentals.CsharpBasics
+namespace CsharpFundamentals.DataStructures
 {
     internal class EnumBasics
     {

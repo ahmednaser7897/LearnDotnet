@@ -5,6 +5,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <DocumentationFile>E:\flutter_work\dotnet\LearnDotnet\CsharpBasics\CsharpBasics\XmlFile.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

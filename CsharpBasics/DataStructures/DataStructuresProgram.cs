@@ -4,11 +4,18 @@
     {
         public static void Run()
         {
-            Arrays.Run();
-            ArrayListBasics.Run();
-            ListBasics.Run();
-            StackBasics.Run();
-            QueueBasics.Run();
+            //StructBasics.Run();
+            //EnumBasics.Run();
+            //Records.Run();
+            //Arrays.Run();
+            //ArrayListBasics.Run();
+            //StackBasics.Run();
+            //QueueBasics.Run();
+            //ListBasics.Run();
+            //LinkedListBasics.Run();
+            //SetBasics.Run();
+            //DictionaryBasics.Run();
+            TupleBasics.Run();
         }
     }
 }

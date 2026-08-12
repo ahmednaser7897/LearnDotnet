@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CsharpFundamentals</name>
+    </assembly>
+    <members>
+        <member name="T:CsharpFundamentals.CsharpBasics.Genrator">
+            // XML documentation is loaded from an external XML file.
+            <!-- Failed to insert some or all of included XML --><include file="XmlFile.xml" path="doc/members/member[@name=&quot;T:CsharpFundamentals.CsharpBasics.Genrator&quot;]/*" />
+        </member>
+        <member name="P:CsharpFundamentals.CsharpBasics.Genrator.LastId">
+            <!-- Failed to insert some or all of included XML --><include file="XmlFile.xml" path="doc/members/member[@name=&quot;P:CsharpFundamentals.CsharpBasics.Genrator.LastId&quot;]/*" />
+        </member>
+        <member name="M:CsharpFundamentals.CsharpBasics.Genrator.GenerateId(System.String,System.String,System.Nullable{System.DateTime})">
+            <!-- Failed to insert some or all of included XML --><include file="XmlFile.xml" path="doc/members/member[@name=&quot;M:CsharpFundamentals.CsharpBasics.Genrator.GenerateId(System.String,System.String,System.Nullable{System.DateTime})&quot;]/*" />
+        </member>
+        <member name="T:CsharpFundamentals.CsharpOop.OopProgram">
+            <summary>
+            Runs the complete OOP reference in a deliberate learning order.
+            Comment out topics while studying a single file.
+            </summary>
+        </member>
+        <member name="M:CsharpFundamentals.Reflections.ReflectionBasics.AssemblyBasics">
+            <summary>
+            Demonstrates basic information that can be retrieved from an Assembly.
+            An Assembly is the compiled DLL or EXE that contains our application code.
+            </summary>
+        </member>
+        <member name="M:CsharpFundamentals.Reflections.ReflectionBasics.EmbeddedResourceBasics">
+            <summary>
+            Demonstrates how to work with files embedded inside an Assembly.
+            </summary>
+        </member>
+        <member name="M:CsharpFundamentals.Reflections.ReflectionBasics.GetTypesBasics">
+            <summary>
+            Demonstrates how to get information about types using Reflection.
+            </summary>
+        </member>
+        <member name="M:CsharpFundamentals.Reflections.ReflectionBasics.DateTimeReflection">
+            <summary>
+            Demonstrates how to inspect the members and properties of a type.
+            </summary>
+        </member>
+        <member name="M:CsharpFundamentals.Reflections.ReflectionBasics.IntReflection">
+            <summary>
+            Demonstrates how to find and invoke methods using Reflection.
+            </summary>
+        </member>
+    </members>
+</doc>

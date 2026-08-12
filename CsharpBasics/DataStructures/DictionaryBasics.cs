@@ -1,10 +1,6 @@
 ﻿// ITI LECTURE - C# Fundamentals - Dictionary<TKey, TValue>
 // File - DictionaryBasics.cs
-
-using System;
-using System.Collections.Generic;
-
-namespace CsharpFundamentals.CsharpBasics
+namespace CsharpFundamentals.DataStructures
 {
     internal class DictionaryBasics
     {

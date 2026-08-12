@@ -17,6 +17,22 @@ namespace CsharpFundamentals.CsharpBasics
         public static void Run()
         {
             // ========================================================
+            // Nullable DataType
+            // ========================================================
+            
+            int grade1 = default;//0
+            Nullable<int> grade2 = default;//null
+            Console.WriteLine($"grade1 is {grade1}");
+            Console.WriteLine($"grade2 is {grade2}");
+            if (grade2 is null)//-->!grade2.HasValue
+            {
+                Console.WriteLine("grade2 is null");
+            }
+            else
+            {
+                Console.WriteLine($"grade2 is {grade2}");
+            }
+            // ========================================================
             // Nullable Reference Type ?
             // ========================================================
             //

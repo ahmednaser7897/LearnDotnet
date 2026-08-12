@@ -3,8 +3,9 @@
 //In C#, namespaces are defined using the "namespace" keyword followed by the desired name.
 
 using CsharpFundamentals.CsharpBasics;
+using CsharpFundamentals.DataStructures;
 using CsharpFundamentals.ObjectOrientedProgramming;
-using CsharpFundamentals.Reflections;
+
 
 namespace CsharpFundamentals
 {
@@ -16,9 +17,9 @@ namespace CsharpFundamentals
             //OopProgram.Run();
             //KeyWordsProgram.Run();
             //SolidProgram.Run();
-            //DataStructuresProgram.Run();
+            DataStructuresProgram.Run();
             //FileHandlingProgram.Run();
-            ReflectionProgram.Run();
+            //ReflectionProgram.Run();
         }
     }
 }

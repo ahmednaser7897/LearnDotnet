@@ -11,16 +11,15 @@ namespace CsharpFundamentals.CsharpBasics
             //CharDataType.Run();
             //StringDataType.Run();
             //NumericDataTypes.Run();
-            //NullableExample.Run();
+            NullableExample.Run();
             //Selections.Run();
             //Loops.Run();
             //Methods.Run();
+            //ExtensionMethods.Run();
             //ExceptionHandling.Run();
-            //DictionaryBasics.Run();
             //ValueDataTypsBasics.Run();
-            //EnumBasics.Run();
-            //StructBasics.Run();
-            ExtensionMethods.Run();
+            //XmlDocumentation.Run();
+            //UsingKeywordBasics.Run();
         }
     }
 }

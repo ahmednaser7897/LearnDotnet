@@ -2,7 +2,7 @@
 
 namespace CsharpFundamentals.ObjectOrientedProgramming
 {
-    internal class EnumeratorsAndIterators
+    internal class EnumeratorsAndIterators 
     {
         public static Manager manager;
 
