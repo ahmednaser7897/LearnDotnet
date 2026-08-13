@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xps\\.nuget\\packages\\": {},
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
+      "projectUniqueName": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
       "projectName": "TestClassLibrary",
-      "projectPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
-      "packagesPath": "C:\\Users\\xps\\.nuget\\packages\\",
-      "outputPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\obj\\",
+      "projectPath": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\COMPUMARTS\\.nuget\\packages\\",
+      "outputPath": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\xps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\COMPUMARTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.303/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -24,6 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MyFirstExtension\MyFirstExtension.csproj" />
     <ProjectReference Include="..\TestClassLibrary\TestClassLibrary.csproj" />
   </ItemGroup>
