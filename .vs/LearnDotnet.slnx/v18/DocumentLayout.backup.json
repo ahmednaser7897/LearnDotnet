@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\streams\\streamsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\streams\\streamsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\asynchronization\\concurrencyandparallelism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\asynchronization\\concurrencyandparallelism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\streams\\streamdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\streams\\streamdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "CsharpBasics\\Program.cs",
               "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Program.cs",
               "RelativeToolTip": "CsharpBasics\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T11:29:37.855Z",
               "IsPinned": true,
@@ -40,29 +40,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StreamsProgram.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Streams\\StreamsProgram.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Streams\\StreamsProgram.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Streams\\StreamsProgram.cs",
-              "RelativeToolTip": "CsharpBasics\\Streams\\StreamsProgram.cs",
+              "DocumentIndex": 1,
+              "Title": "AsynchronizationProgram.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\AsynchronizationProgram.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\Asynchronization\\AsynchronizationProgram.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\AsynchronizationProgram.cs",
+              "RelativeToolTip": "CsharpBasics\\Asynchronization\\AsynchronizationProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T16:20:09.208Z",
+              "WhenOpened": "2026-08-14T12:38:52.326Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StreamDecorator.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Streams\\StreamDecorator.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Streams\\StreamDecorator.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Streams\\StreamDecorator.cs",
-              "RelativeToolTip": "CsharpBasics\\Streams\\StreamDecorator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ConcurrencyAndParallelism.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
+              "RelativeDocumentMoniker": "CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
+              "RelativeToolTip": "CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T17:24:42.775Z",
+              "WhenOpened": "2026-08-14T15:13:10.319Z",
               "EditorCaption": ""
             },
             {

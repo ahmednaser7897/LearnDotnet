@@ -2,8 +2,7 @@
 //It allows you to group related classes, interfaces, and other types together under a common name.
 //In C#, namespaces are defined using the "namespace" keyword followed by the desired name.
 
-using CsharpFundamentals.Streams;
-
+using CsharpFundamentals.Asynchronization;
 
 namespace CsharpFundamentals
 {
@@ -19,7 +18,9 @@ namespace CsharpFundamentals
             //FileHandlingProgram.Run();
             //ReflectionProgram.Run();
             //await SerializationProgram.Run();
-            StreamsProgram.Run();
+            //StreamsProgram.Run();
+            //ThreadingProgram.Run();
+            AsynchronizationProgram.Run();
         }
     }
 }
