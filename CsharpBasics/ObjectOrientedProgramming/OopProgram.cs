@@ -10,7 +10,7 @@
             //Encapsulation.Run();
             //InheritanceBasics.Run();
             //AbstractClass.Run();
-            //Interfaces.Run();;
+            Interfaces.Run();
             //StaticClasses.Run();
             //Polymorphism.Run();
             //ObjectMethodsAndEquality.Run();
@@ -21,7 +21,7 @@
             //Indexers.Run();
             //EnumeratorsAndIterators.Run();
             //Finalizers.Run();
-            IDisposapleDesignPattern.Run();
+            //IDisposapleDesignPattern.Run();
             //NestedTypes.Run();
             //TestAccessModifier.Run();
             //Generics.Run();

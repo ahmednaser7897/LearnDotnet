@@ -1,6 +1,4 @@
-﻿using AsyncProgramming.FileHandling;
-
-namespace AsyncProgramming
+﻿namespace AsyncProgramming
 {
     class Program
     {
@@ -8,7 +6,6 @@ namespace AsyncProgramming
         {
             //ThreadingProgram.Run();
             //AsynchronizationProgram.Run();
-            FileHandlingProgram.Run();
         }
     }
 }

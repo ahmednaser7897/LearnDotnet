@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CsharpFundamentals.ObjectOrientedProgramming
+﻿namespace CsharpFundamentals.ObjectOrientedProgramming
 {
     internal class Interfaces
     {
