@@ -43,7 +43,7 @@
  * ================================================================
  */
 
-namespace CsharpFundamentals.Threading
+namespace AsyncProgramming.Threading
 {
     internal class ThreadingBasics
     {

@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AsyncProgramming/AsyncProgramming.csproj" Id="3ebaec77-02ac-4dea-85b8-8c407960e375" />
   <Project Path="CsharpBasics/CsharpFundamentals.csproj" />
   <Project Path="MyFirstExtension/MyFirstExtension.csproj" Id="b71a0ec0-907f-41e2-a911-3a0a46634c26" />
   <Project Path="MySacondExtension/MySacondExtension.csproj" Id="dfc56832-549f-420b-88ae-901c89a64891" />

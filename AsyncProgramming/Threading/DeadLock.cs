@@ -96,7 +96,7 @@
  * ================================================================
  */
 
-namespace CsharpFundamentals.Threading
+namespace AsyncProgramming.Threading
 {
     class DeadLock
     {

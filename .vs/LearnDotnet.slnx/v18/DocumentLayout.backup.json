@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\threading\\threadingbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\threading\\threadingbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|d:\\programing\\dotnet\\learndotnet\\asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|solutionrelative:asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\asynchronization\\concurrencyandparallelism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\asynchronization\\concurrencyandparallelism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\threading\\threadingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\threading\\threadingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|d:\\programing\\dotnet\\learndotnet\\csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D17C5C2-D28C-A769-B8A1-61EFFAD4744D}|CsharpBasics\\CsharpFundamentals.csproj|solutionrelative:csharpbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|d:\\programing\\dotnet\\learndotnet\\asyncprogramming\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|solutionrelative:asyncprogramming\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Program.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Program.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Program.cs",
-              "RelativeToolTip": "CsharpBasics\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
+              "RelativeDocumentMoniker": "AsyncProgramming\\Program.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
+              "RelativeToolTip": "AsyncProgramming\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T11:29:37.855Z",
+              "WhenOpened": "2026-08-15T16:05:10.447Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConcurrencyAndParallelism.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
-              "RelativeToolTip": "CsharpBasics\\Asynchronization\\ConcurrencyAndParallelism.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAA0wAwAAAARAAAAAAAAAA==",
+              "Title": "AsynchronizationProgram.cs",
+              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
+              "RelativeDocumentMoniker": "AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
+              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
+              "RelativeToolTip": "AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T14:32:43.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThreadingProgram.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Threading\\ThreadingProgram.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Threading\\ThreadingProgram.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Threading\\ThreadingProgram.cs",
-              "RelativeToolTip": "CsharpBasics\\Threading\\ThreadingProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T14:27:11.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThreadingBasics.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Threading\\ThreadingBasics.cs",
-              "RelativeDocumentMoniker": "CsharpBasics\\Threading\\ThreadingBasics.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\CsharpBasics\\Threading\\ThreadingBasics.cs",
-              "RelativeToolTip": "CsharpBasics\\Threading\\ThreadingBasics.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv4wAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T14:13:04.018Z",
+              "WhenOpened": "2026-08-15T16:16:08.337Z",
               "EditorCaption": ""
             },
             {

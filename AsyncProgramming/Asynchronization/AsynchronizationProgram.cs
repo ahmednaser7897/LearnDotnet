@@ -1,4 +1,4 @@
-﻿namespace CsharpFundamentals.Asynchronization
+﻿namespace AsyncProgramming.Asynchronization
 {
     internal class AsynchronizationProgram
     {
