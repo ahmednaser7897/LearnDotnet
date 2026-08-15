@@ -49,9 +49,10 @@ namespace CsharpFundamentals.Threading
     {
         public static void Run()
         {
-            ProcessAndThread();
-            Sequential();
-            Multithreading();
+            //ProcessAndThread();
+            //Sequential();
+            Multithreading1();
+            //Multithreading2();
         }
 
 
@@ -108,10 +109,93 @@ namespace CsharpFundamentals.Threading
         // ============================================================
         // Multithreading
         // ============================================================
-
-        public static void Multithreading()
+        public static void Multithreading1()
         {
-            Console.WriteLine("================== Multithreading ==================");
+            Console.WriteLine("================== Multithreading 1 ==================");
+            // by defoult it works in Concurrency -> not the same time exactly(work in each some time and go to 2nd and so on)
+            // to make it work exactly in the same time it must use Parallelism
+            // as you see some output with White color and this is wrong
+            // this becouse Threads conflict
+            // so its not recommended to use static members with Threads(ex:ConsoleColor.White)
+            // this is called race condition and can be solved using (lock keyword)
+            // 1- thi can have race condition
+            //var thread1 = new Thread(PrintThread1);
+            //var thread2 = new Thread(PrintThread2);
+            //thread1.Start();
+            //thread2.Start();
+            // 2- this can not have race condition
+            var thread3 = new Thread(PrintThread3);
+            var thread4 = new Thread(PrintThread4);
+            //thread3.Start();
+            //thread4.Start();
+
+            // we can give thread Priority
+            thread3.Priority = ThreadPriority.Lowest;
+            thread4.Priority = ThreadPriority.Highest;
+            //thread3.Start();
+            //thread4.Start();
+
+            // by defoult the main Thread in the app is Foreground
+            // the the app will ends when all the Foreground Threads ends
+            // even we sill have Background Threads not ended yet
+            // so here the app will end before thread3,thread4 ends
+            thread3.IsBackground = true;
+            thread4.IsBackground = true;
+            //thread3.Start();
+            //thread4.Start();
+
+            Console.WriteLine("====================================\n\n\n");
+        }
+        public static void PrintThread1()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Thread One : " + i.ToString());
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+        }
+        public static void PrintThread2()
+        {
+            for (int i = 100; i < 200; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Thread Two : " + i.ToString());
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+        }
+        private static readonly object _lock = new();
+        public static void PrintThread3()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                lock (_lock)
+                {
+
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Thread 3 : " + i.ToString());
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+            }
+        }
+        public static void PrintThread4()
+        {
+            for (int i = 100; i < 200; i++)
+            {
+                lock (_lock)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Thread 4 : " + i.ToString());
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+
+            }
+        }
+
+        public static void Multithreading2()
+        {
+            Console.WriteLine("================== Multithreading 2 ==================");
 
             // Name the current thread.
             Thread.CurrentThread.Name = "Main Thread";

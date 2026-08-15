@@ -4,9 +4,9 @@
     {
         public static void Run()
         {
-            //ThreadingBasics.Run();
+            ThreadingBasics.Run();
             //RaceCondition.Run();
-            DeadLock.Run();
+            //DeadLock.Run();
             //TestThreadPool.Run();
         }
     }

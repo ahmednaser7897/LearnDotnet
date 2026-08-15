@@ -1,4 +1,4 @@
-namespace CsharpFundamentals.CsharpOop;
+namespace CsharpFundamentals.ObjectOrientedProgramming;
 
 internal static class ObjectRelationships
 {

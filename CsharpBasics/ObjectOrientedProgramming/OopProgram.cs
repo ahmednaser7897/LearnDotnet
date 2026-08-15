@@ -19,11 +19,18 @@
             //Delegate.Run();
             //Events.Run();
             //Indexers.Run();
-            EnumeratorsAndIterators.Run();
+            //EnumeratorsAndIterators.Run();
             //Finalizers.Run();
+            IDisposapleDesignPattern.Run();
             //NestedTypes.Run();
             //TestAccessModifier.Run();
             //Generics.Run();
+            //===============================
+            //ModernCsharpOop.Run();
+            //ObjectRelationships.Run();
+            //PatternMatchingAndTypeChecks.Run();
+            //MiniProject.Run();
+
         }
 
     }

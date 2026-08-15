@@ -4,7 +4,6 @@
     {
         public static void Run()
         {
-            //IDisposapleDesignPattern.Run();
             //FileStreams.Run();
             StreamDecorator.Run();
         }
