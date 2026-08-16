@@ -1,14 +1,27 @@
 ﻿namespace CsharpFundamentals.ObjectOrientedProgramming
 {
-    internal class Delegate
+    internal class DelegatesBasics
     {
         public static void Run()
         {
-            DelegateBasics();
+            //DelegateBasics();
             MultiTaskDelegate();
-        }        
+            //PreDefDelegates();
+        }
+        delegate bool IsEven(int value);
         static void DelegateBasics()
         {
+            // delegate covered to class that inherit MulticastDelegate
+            // and MulticastDelegate itself inherit Delegate
+            // Delegate has method Invoce that call the assign methd to this Delegate
+            IsEven isEven = getEven;
+            //we can call it like this
+            Console.WriteLine(isEven.Invoke(10));
+
+            // or like this
+            Console.WriteLine(isEven(10));
+            
+
             bool Pluse60000(NormalEmployee e) => (e.Salary >= 60000m);
             var employees = new NormalEmployee[]
           {
@@ -26,18 +39,30 @@
             //Report.processEmployeeWith60000PlusSalary(employees);
             //Report.processEmployeeBetween30000And59999Salary(employees);
             //Report.processEmployeeWithLess30000Salary(employees);
-            //can send it as a var
+            Illegablemployee illegablemployee1 = new Illegablemployee(Pluse60000);
+            Illegablemployee illegablemployee2 = Pluse60000;
+            //can send the delegate it as a var of delegate itself or the method dirctly
+            //Report.ProcessEmployee(employees, "Employee With $60,000+ Salary", illegablemployee1);
+            //Report.ProcessEmployee(employees, "Employee With $60,000+ Salary", illegablemployee2);
             Report.ProcessEmployee(employees, "Employee With $60,000+ Salary", Pluse60000);
+            // and can use Anonymous delegate if it will used once 
+            Report.ProcessEmployee(employees, "Employee Between 30000 And 59999 Salary", delegate (NormalEmployee e) { return (e.Salary >= 30000m && e.Salary < 60000m); });
+
             // and can write unsing lambda expression  if it will used once ->>> can write Employee type or not -> here we removed it
             Report.ProcessEmployee(employees, "Employee With Less $30,000- Salary", (e) => (e.Salary < 30000m));
-            // or can use Anonymous delegate if it will used once 
-            Report.ProcessEmployee(employees, "Employee Between 30000 And 59999 Salary", delegate (NormalEmployee e) { return (e.Salary >= 30000m && e.Salary < 60000m); });
 
 
         }
+        
         delegate double Rec(double width, double height);
+        
         static void MultiTaskDelegate()
         {
+            // delegate covered to class that inherit MulticastDelegate
+            // and MulticastDelegate itself inherit Delegate
+            // MulticastDelegate enable us to make on delegate refare to many methodes
+            // this can be done bu "InvocationList" in MulticastDelegate
+           
             RectangelHelper rectangel = new RectangelHelper();
 
             // Delegate holds GetArea
@@ -60,6 +85,43 @@
 
             Console.WriteLine($"Rectangle Area = {value2}");
         }
+        static void PreDefDelegates()
+        {
+            // Predicate<T> takes one parameter and returns bool.
+            Predicate<int> GetEven = getEven;
+
+            Console.WriteLine($"10 is {(GetEven(10) ? "even" : "odd")}");
+            Console.WriteLine($"7 is {(GetEven(7) ? "even" : "odd")}");
+
+            Console.WriteLine("================================");
+
+            // Func<T, TResult> takes parameters and returns a value.
+            // and take no parameters, so its like this Func<int>
+            // here it will not take parameters but it will return int
+            Func<int, int, int> Add = add;
+
+            Console.WriteLine($"10 + 20 = {Add(10, 20)}");
+
+            Console.WriteLine("================================");
+
+            // Action<T> takes parameters and does not return a value.
+            // and take no parameters
+            Action<string> Print = (String message) => Console.WriteLine(message);
+
+            Print("Hello from Action delegate");
+        }
+
+        // Returns true if the number is even.
+        static bool getEven(int number)
+        {
+            return number % 2 == 0;
+        }
+
+        // Returns the sum of two numbers.
+        static int add(int number1, int number2)
+        {
+            return number1 + number2;
+        }
     }
     class NormalEmployee
     {
@@ -72,11 +134,11 @@
             return $"Name {Name} Id {Id} Salary {Salary} Gender {Gendar}";
         }
 
-    }
+    } //this is now can hold any method with this signature
+     delegate bool Illegablemployee(NormalEmployee employee);
     class Report
     {
-        //this is now can hold any method with this signature
-        public delegate bool Illegablemployee(NormalEmployee employee);
+       
         public static void ProcessEmployee(NormalEmployee[] employees,string title, Illegablemployee illegablemployee)
         {
             Console.WriteLine(title);

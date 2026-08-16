@@ -4,18 +4,18 @@ namespace CsharpFundamentals.CsharpBasics
 {
     class BasicsProgram
     {
-        public static void Run()
+        public static void Run() 
         {
             //TestNamespace.Run();
             //Operators.Run();
             //CharDataType.Run();
             //StringDataType.Run();
-            StringBuilderBasics.Run();
+            //StringBuilderBasics.Run();
             //NumericDataTypes.Run();
             //NullableExample.Run();
             //Selections.Run();
             //Loops.Run();
-            //Methods.Run();
+            Methods.Run();
             //ExtensionMethods.Run();
             //ExceptionHandling.Run();
             //ValueDataTypsBasics.Run();

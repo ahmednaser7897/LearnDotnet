@@ -6,7 +6,7 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
     {
         public static Manager manager;
 
-        public static void Run()
+        public static void Run() 
         {
             // Create a Manager object that contains 10 employees.
             manager = new Manager(new List<SeniorEmployee>

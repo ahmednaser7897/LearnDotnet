@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\programing\\dotnet\\LearnDotnet\\",
+  "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|d:\\programing\\dotnet\\learndotnet\\asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|solutionrelative:asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|d:\\programing\\dotnet\\learndotnet\\asyncprogramming\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|solutionrelative:asyncprogramming\\asynchronization\\asynchronizationprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAA3131F-ED58-4C9A-BAE5-883A58349232}|SnackGame\\SnackGame.csproj|e:\\flutter_work\\dotnet\\learndotnet\\snackgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA3131F-ED58-4C9A-BAE5-883A58349232}|SnackGame\\SnackGame.csproj|solutionrelative:snackgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,28 +20,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
-              "RelativeDocumentMoniker": "AsyncProgramming\\Program.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
-              "RelativeToolTip": "AsyncProgramming\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\SnackGame\\Program.cs",
+              "RelativeDocumentMoniker": "SnackGame\\Program.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\SnackGame\\Program.cs",
+              "RelativeToolTip": "SnackGame\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:05:10.447Z",
+              "WhenOpened": "2026-08-16T14:19:19.768Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AsynchronizationProgram.cs",
-              "DocumentMoniker": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
-              "RelativeDocumentMoniker": "AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
-              "ToolTip": "D:\\programing\\dotnet\\LearnDotnet\\AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
-              "RelativeToolTip": "AsyncProgramming\\Asynchronization\\AsynchronizationProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-15T16:16:08.337Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",

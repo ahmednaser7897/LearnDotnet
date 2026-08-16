@@ -10,14 +10,14 @@
             //Encapsulation.Run();
             //InheritanceBasics.Run();
             //AbstractClass.Run();
-            Interfaces.Run();
+            //Interfaces.Run();
             //StaticClasses.Run();
             //Polymorphism.Run();
             //ObjectMethodsAndEquality.Run();
             //CopySemantics.Run();
             //FildesVsProperties.Run();
-            //Delegate.Run();
-            //Events.Run();
+            //DelegatesBasics.Run();
+            Events.Run();
             //Indexers.Run();
             //EnumeratorsAndIterators.Run();
             //Finalizers.Run();

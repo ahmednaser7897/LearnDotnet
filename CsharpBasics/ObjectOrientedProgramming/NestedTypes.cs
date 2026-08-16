@@ -24,7 +24,7 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
     public class Company
     {
         public string Name { get; set; }
-        private int id = 1;
+        private int maxEmp = 100;
         public Company(string name)
         {
             Name = name;
@@ -47,7 +47,10 @@ namespace CsharpFundamentals.ObjectOrientedProgramming
 
             public override string ToString()
             {
-                return $"Id: {Id}, Name: {Name}, Salary: {Salary}";
+                // we can acces the outer class private members in the inner class
+                // when we create an object from it
+                Company co = new("Ahmed");
+                return $"MaxEmp: {co.maxEmp} Id: {Id}, Name: {Name}, Salary: {Salary}";
             }
         }
     }

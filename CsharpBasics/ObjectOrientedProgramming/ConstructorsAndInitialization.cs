@@ -9,7 +9,7 @@ internal static class ConstructorsAndInitialization
         Customer guest = new();
         Customer registered = new("Salma", "salma@example.com");
 
-        // Object initializers assign accessible members after the constructor runs.
+        // Object initializers assign accessible (public) members after the constructor runs.
         Product product = new("KB-101")
         {
             Name = "Mechanical Keyboard",
