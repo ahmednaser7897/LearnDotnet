@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|e:\\flutter_work\\dotnet\\learndotnet\\asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EBAEC77-02AC-4DEA-85B8-8C407960E375}|AsyncProgramming\\AsyncProgramming.csproj|solutionrelative:asyncprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\linqbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\linqbasics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\LinqBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\LinqBasics.csproj|solutionrelative:linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
-              "RelativeDocumentMoniker": "AsyncProgramming\\Program.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\AsyncProgramming\\Program.cs",
-              "RelativeToolTip": "AsyncProgramming\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
+              "RelativeDocumentMoniker": "LinqBasics\\Program.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
+              "RelativeToolTip": "LinqBasics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T11:06:15.567Z",
+              "WhenOpened": "2026-08-23T08:02:08.031Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinqBasics.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\LinqBasics.cs",
+              "RelativeDocumentMoniker": "LinqBasics\\LinqBasics.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\LinqBasics.cs",
+              "RelativeToolTip": "LinqBasics\\LinqBasics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T08:10:16.295Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
