@@ -4,190 +4,290 @@ internal class LinqBasics
 {
     public static void Run()
     {
-        ExpressionVsStatement();
-        PureVsImpureFunctions();
-        ImparativeVsDeclarative();
+        // ExpressionVsStatement();
+        // PureVsImpureFunctions();
+        ImperativeVsDeclarative();
     }
+
+    // ============================================================
+    // Expression vs Statement
+    // ============================================================
 
     public static void ExpressionVsStatement()
     {
         Console.WriteLine("===================== Expression Vs Statement =====================");
+
+        // A statement performs an action and usually ends with ; or a code block.
+
         // Declaration statement.
         int counter;
 
         // Assignment statement.
         counter = 1;
 
-        // Declare and initialize
-        const double pi = 3.14159; // Declare and initialize  constant.
+        // Declaration and initialization statement.
+        const double pi = 3.14159;
 
-        // foreach statement
+        // A foreach statement repeats code for each item.
         foreach (var item in new int[] { 1, 2, 3 })
         {
-
         }
 
-        // for statement
+        // A for statement repeats code while the condition is true.
         for (int i = 0; i < 10; i++)
         {
-
         }
 
-        // if , if - else if -else , 
+        // An if statement executes code based on a condition.
         if (true)
         {
-
         }
 
-        // switch, jump, do, while 
+        // Other statements include switch, while, do, and jump statements.
 
 
-        // Expresion 
+        // ============================================================
+        // Expressions
+        // ============================================================
+
+        // An expression produces a value.
         var radius = 10;
 
-        var area = 3.14 * (radius * radius); // expression  3.14 * (radius * radius) yield a value
+        // This expression calculates and produces the area value.
+        var area = 3.14 * (radius * radius);
 
-        // method invocation (this method yield void
+        // A method call can be an expression even if the method returns void.
         Console.WriteLine(area);
 
-        // new object creation 
-        var names = new string[] { "ali", "ahmad", "reem" };
+        // Object creation is an expression because it produces a new object.
+        var names = new string[] { "Ali", "Ahmad", "Reem" };
 
-        // statement can include expression and not the other way around
+        // A statement can contain expressions, but an expression is not always a statement.
 
+        // Method call used as a statement.
         DoSomething();
+
+        void DoSomething()
+        {
+            // A return statement exits the method.
+            return;
+        }
+
         Console.WriteLine("==========================================");
         Console.WriteLine();
     }
-    static void DoSomething()
-    {
-        return;
-    }
+
+
+    // ============================================================
+    // Pure vs Impure Functions
+    // ============================================================
+
     public static void PureVsImpureFunctions()
     {
         Console.WriteLine("===================== Pure Vs Impure Functions =====================");
-        //Print(numbers);
 
-        // AddInteger1(3);
+        // A pure function gives the same output for the same input.
+        // A pure function does not change anything outside itself.
 
-        //var x = 2;
-        //AddInteger2(ref x);
+        var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-        //AddInteger3();
-
-        var newList = AddInteger4(numbers, 3);
-        Console.WriteLine("old list");
+        // Print the original list.
         Print(numbers);
-        Console.WriteLine("new list");
+
+        // This method changes the external list, so it is impure.
+        AddInteger1(3);
+
+        // This value will be changed through the ref parameter.
+        var x = 2;
+
+        // This method changes the parameter and the external list, so it is impure.
+        AddInteger2(ref x);
+
+        // This method uses Random, so its result depends on external state.
+        AddInteger3();
+
+        // This method creates a new list instead of changing the original list.
+        var newList = AddInteger4(numbers, 3);
+
+        Console.WriteLine("Old list");
+        Print(numbers);
+
+        Console.WriteLine("New list");
         Print(newList);
 
         Console.WriteLine("==========================================");
         Console.WriteLine();
-    }
-    static List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    static void Print(List<int> source)
-    {
-        foreach (var item in source)
+
+
+        // Prints all numbers in the list.
+        void Print(List<int> source)
         {
-            Console.Write($" {item}");
+            foreach (var item in source)
+            {
+                Console.Write($" {item}");
+            }
+
+            Console.WriteLine();
         }
-        Console.WriteLine();
+
+
+        // Changes the external list, so this function is impure.
+        void AddInteger1(int num)
+        {
+            numbers.Add(num);
+        }
+
+
+        // Changes the ref parameter and the external list, so this function is impure.
+        void AddInteger2(ref int num)
+        {
+            num++;
+            numbers.Add(num);
+        }
+
+
+        // Uses Random, which depends on external state, so this function is impure.
+        void AddInteger3()
+        {
+            numbers.Add(new Random().Next());
+        }
+
+
+        // Creates a new list and keeps the original list unchanged, so it is pure.
+        List<int> AddInteger4(List<int> source, int num)
+        {
+            var result = new List<int>(source);
+            result.Add(num);
+
+            return result;
+        }
     }
 
-    static void AddInteger1(int num)
-    {
-        numbers.Add(num); // impure mutate global variable
-    }
 
-    static void AddInteger2(ref int num)
-    {
-        num++; // impure mutate parameter
-        numbers.Add(num);
-    }
+    // ============================================================
+    // Imperative vs Declarative
+    // ============================================================
 
-    static void AddInteger3()
+    public static void ImperativeVsDeclarative()
     {
-        numbers.Add(new Random().Next()); // impure interation with outside world
-    }
+        Console.WriteLine("===================== Imperative Vs Declarative =====================");
 
-    static List<int> AddInteger4(List<int> numbers, int num)
-    {
-        var result = new List<int>(numbers); // 
-        result.Add(num);
-        return result;
-    }
-
-    public static void ImparativeVsDeclarative()
-    {
-        Console.WriteLine("===================== ImparativeVsDeclarative =====================");
+        // Create a collection of people.
         IEnumerable<Person> people = new[]
-             {
-                new Person { Name =  "Ali Saleh", Age = 34, Telephone = "+1(123)456-7890"},
-                new Person { Name =  "Rim Salem", Age = 19, Telephone = "+1(123)456-7891"},
-                new Person { Name =  "Ola Salam", Age = 44, Telephone = "+1(123)456-7892"},
-                new Person { Name =  "Huda Mohd", Age = 32, Telephone = "+1(123)456-7893"},
-                new Person { Name =  "Omar Kadi", Age = 28, Telephone = "+1(123)456-7894"}
-            };
+        {
+            new Person
+            {
+                Name = "Ali Saleh",
+                Age = 34,
+                Telephone = "+1(123)456-7890"
+            },
 
-        // Print(people);
+            new Person
+            {
+                Name = "Rim Salem",
+                Age = 19,
+                Telephone = "+1(123)456-7891"
+            },
 
-        //var result = FilterPeopleWithAgeLessThan(people, 30);
-        //Console.WriteLine("Age Less Than 30");
-        //Console.WriteLine("---------------");
+            new Person
+            {
+                Name = "Ola Salam",
+                Age = 44,
+                Telephone = "+1(123)456-7892"
+            },
 
-        //var result = FilterPeopleWithAgeEqual(people, 32);
-        //Console.WriteLine("Age = 32");
-        //Console.WriteLine("---------------");
-        //Print(result);
+            new Person
+            {
+                Name = "Huda Mohd",
+                Age = 32,
+                Telephone = "+1(123)456-7893"
+            },
 
-        //Method2(Method1);
+            new Person
+            {
+                Name = "Omar Kadi",
+                Age = 28,
+                Telephone = "+1(123)456-7894"
+            }
+        };
 
-        Func<Person, bool> predicate = p => p.Age >= 32;
 
+        // A predicate describes the condition we want to apply.
+        Func<Person, bool> predicate = person => person.Age >= 32;
+
+        // Filter the people using the condition.
         var result = Filter(people, predicate);
+
         Console.WriteLine("Age >= 32");
         Console.WriteLine("---------------");
+
+        // Print the filtered people.
         Print(result);
+
         Console.WriteLine("==========================================");
         Console.WriteLine();
     }
-    static IEnumerable<Person> Filter(IEnumerable<Person> people, Func<Person, bool> predicate)
+
+
+    // Filters people based on the condition passed to the method.
+    static IEnumerable<Person> Filter(
+        IEnumerable<Person> people,
+        Func<Person, bool> predicate)
     {
-        foreach (var item in people)
+        // Check every person in the collection.
+        foreach (var person in people)
         {
-            if (predicate(item))
-                yield return item;
+            // Return the person when the condition is true.
+            if (predicate(person))
+            {
+                yield return person;
+            }
         }
     }
 
 
+    // A method that can be passed as an Action.
     static void Method1()
     {
         Console.WriteLine("Method 1");
     }
 
-    static void Method2(Action method1)
+
+    // Executes the received method and then continues execution.
+    static void Method2(Action method)
     {
-        method1();
+        method();
+
         Console.WriteLine("Method 2");
     }
+
+
+    // Prints all people in the collection.
     static void Print(IEnumerable<Person> people)
     {
-        foreach (Person p in people)
+        foreach (var person in people)
         {
             Console.Write(" {");
-            Console.Write($" Name: \"{p.Name}\"");
-            Console.Write($", Age: {p.Age}");
-            Console.Write($", Telephone: \"{p.Telephone}\"");
+            Console.Write($" Name: \"{person.Name}\"");
+            Console.Write($", Age: {person.Age}");
+            Console.Write($", Telephone: \"{person.Telephone}\"");
             Console.Write(" }");
+
             Console.WriteLine();
         }
     }
+
+
+    // Represents a person with basic information.
     class Person
     {
+        // The person's name.
         public string Name { get; set; }
+
+        // The person's age.
         public int Age { get; set; }
+
+        // The person's telephone number.
         public string Telephone { get; set; }
     }
-
 }
