@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\generationoperations\\linqgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\generationoperations\\linqgeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\generationoperations\\questionbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\generationoperations\\questionbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\generationoperations\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\generationoperations\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\joinoperations\\linqjoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\joinoperations\\linqjoins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
               "RelativeDocumentMoniker": "LinqBasics\\Program.cs",
               "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
               "RelativeToolTip": "LinqBasics\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-23T08:02:08.031Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Question.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\Question.cs",
-              "RelativeDocumentMoniker": "LinqBasics\\GenerationOperations\\Question.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\Question.cs",
-              "RelativeToolTip": "LinqBasics\\GenerationOperations\\Question.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIA3wA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T12:18:34.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionBank.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\QuestionBank.cs",
-              "RelativeDocumentMoniker": "LinqBasics\\GenerationOperations\\QuestionBank.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\QuestionBank.cs",
-              "RelativeToolTip": "LinqBasics\\GenerationOperations\\QuestionBank.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T12:18:24.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LinqGeneration.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\LinqGeneration.cs",
-              "RelativeDocumentMoniker": "LinqBasics\\GenerationOperations\\LinqGeneration.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\GenerationOperations\\LinqGeneration.cs",
-              "RelativeToolTip": "LinqBasics\\GenerationOperations\\LinqGeneration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T12:08:35.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LinqJoins.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\JoinOperations\\LinqJoins.cs",
-              "RelativeDocumentMoniker": "LinqBasics\\JoinOperations\\LinqJoins.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\JoinOperations\\LinqJoins.cs",
-              "RelativeToolTip": "LinqBasics\\JoinOperations\\LinqJoins.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T11:49:21.58Z",
               "EditorCaption": ""
             },
             {
