@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\anatomy\\linqanatomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\anatomy\\linqanatomy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|e:\\flutter_work\\dotnet\\learndotnet\\linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4BB91C4-D467-4648-9D0B-39DACF897CB3}|LinqBasics\\Linq.csproj|solutionrelative:linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
               "RelativeDocumentMoniker": "LinqBasics\\Program.cs",
               "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Program.cs",
               "RelativeToolTip": "LinqBasics\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-23T08:02:08.031Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinqAnatomy.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Anatomy\\LinqAnatomy.cs",
+              "RelativeDocumentMoniker": "LinqBasics\\Anatomy\\LinqAnatomy.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\LinqBasics\\Anatomy\\LinqAnatomy.cs",
+              "RelativeToolTip": "LinqBasics\\Anatomy\\LinqAnatomy.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAA6wNwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T14:24:33.146Z",
               "EditorCaption": ""
             },
             {

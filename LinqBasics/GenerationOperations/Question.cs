@@ -9,7 +9,29 @@
 
         public int CorrectAnswer { get; set; }
 
+        public int Marks { get; set; }
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
 
+            Question other = (Question)obj;
+
+            return Title.Equals(other.Title)
+                 && CorrectAnswer == other.CorrectAnswer
+                 && Choices.SequenceEqual(other.Choices);
+        }
+
+        public override int GetHashCode()
+        {
+            int hash = 17;
+            //check null
+            hash = hash * 23 + Title.GetHashCode();
+            hash = hash * 23 + CorrectAnswer.GetHashCode();
+            hash = hash * 23 + Choices.GetHashCode();
+            return hash;
+        }
         // Question.Default
         public readonly static Question Default = new Question
         {
@@ -34,8 +56,8 @@
                 choices += $"\n\t{item.Order}) {item.Description}";
             }
 
-            return $"{Title}" +
-                   $"{choices}"; 
+            return $"{Title} [{Marks} marks]" +
+                    $"{choices}";
         }
     }
 }
