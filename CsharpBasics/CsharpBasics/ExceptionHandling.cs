@@ -185,7 +185,7 @@
                 {
                     int.Parse("ABC");
                 }
-                catch (FormatException )
+                catch (FormatException)
                 {
                     Console.WriteLine("Inner catch handled FormatException.");
                     throw;
