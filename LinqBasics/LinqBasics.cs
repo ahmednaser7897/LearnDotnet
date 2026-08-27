@@ -1,13 +1,61 @@
-﻿namespace Linq;
+﻿using Linq.Sets;
+
+namespace Linq;
 
 internal class LinqBasics
 {
     public static void Run()
     {
+        ImplicitTypedVariables();
+        AnonymousTypes();
         // ExpressionVsStatement();
         // PureVsImpureFunctions();
         ImperativeVsDeclarative();
     }
+    public static void ImplicitTypedVariables()
+    {
+        Console.WriteLine("===================== Implicit typed variables ====================");
+        // var used to declare a variable and its type is inferred from the right hand side
+        // so the type must be know at compile time 
+        // and it cant be changed during runtime
+        var a = 1;
+        //a=1.1 is not allowed because a is declared as int
+        var b = 2;
+        Console.WriteLine($"a = {a}");
+        Console.WriteLine($"b = {b}");
+        Console.WriteLine("==========================================");
+        Console.WriteLine();
+    }
+    public static void AnonymousTypes()
+    {
+        Console.WriteLine("===================== Anonymous Types ====================");
+        var employee1 = new Employee() { EmployeeNo = "123456", Name = "John Doe" };
+        Console.WriteLine($"Normal class Employee = {employee1}");
+
+        // Anonymous types are immutable, so once an object is created, its properties cannot be changed.
+        // Anonymous types override Equals(), GetHashCode(), and ToString().
+        // The C# compiler automatically creates the anonymous type.
+        // If we create multiple anonymous objects with the same property names and types,
+        // the compiler uses the same anonymous type for them.
+        // Anonymous types compare objects based on the values of their properties.
+        var employee2 = new { EmployeeNo = "123457", Name = "Jane Doe" };
+        var employee3 = new { EmployeeNo = "123457", Name = "Jane Doe" };
+        var employee4 = new { employeeNo = "123457", name = "Jane Doe" };
+        Console.WriteLine($"Anunmas class Employee Data {employee2}");// { EmployeeNo = 123457, Name = Jane Doe }
+        Console.WriteLine($"Anunmas class Employee Type {employee2.GetType()}");//  <>f__AnonymousType0`2[System.String,System.String]
+        Console.WriteLine($"Anunmas class Employee Name {employee2.Name}");// Jane Doe
+        Console.WriteLine($"employee2.GetType()==employee3.GetType() ==> {employee2.GetType() == employee3.GetType()}");//True
+        Console.WriteLine($"employee2.Equals(employee3) ==> {employee2.Equals(employee3)}");//True
+        Console.WriteLine($"employee2.GetType()==employee4.GetType() ==> {employee2.GetType() == employee4.GetType()}");//True
+        Console.WriteLine($"employee2.Equals(employee4) ==> {employee2.Equals(employee4)}");//True
+
+        // Assigning a new value to a property of an anonymous type is not allowed.
+        // Anonymous type properties are read-only after the object is created, so they are immutable.
+        // employee2.Name = "John Doe"; // Causes a compile-time error.
+        Console.WriteLine("==========================================");
+        Console.WriteLine();
+    }
+
 
     // ============================================================
     // Expression vs Statement

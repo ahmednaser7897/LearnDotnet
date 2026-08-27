@@ -7,13 +7,13 @@ namespace Linq
         public static void Run()
         {
             // Run Example 1.
-            // Example1();
+            Example1();
 
             // Run Example 2.
-            // Example2();
+            Example2();
 
             // Run Example 3.
-            // Example3();
+            Example3();
 
             // Run Example 4.
             Example4();
