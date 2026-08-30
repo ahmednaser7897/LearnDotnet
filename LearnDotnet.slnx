@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="ADO.NETBasics/ADO.NETBasics.csproj" Id="efca3507-323a-49be-8bb8-e1db630453f1" />
   <Project Path="AsyncProgramming/AsyncProgramming.csproj" Id="3ebaec77-02ac-4dea-85b8-8c407960e375" />
   <Project Path="CsharpBasics/CsharpFundamentals.csproj" />
   <Project Path="LinqBasics/Linq.csproj" Id="b4bb91c4-d467-4648-9d0b-39dacf897cb3" />

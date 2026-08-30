@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj": {}
+    "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj": {}
   },
   "projects": {
-    "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj": {
+    "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
+        "projectUniqueName": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
         "projectName": "TestClassLibrary",
-        "projectPath": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
-        "packagesPath": "C:\\Users\\COMPUMARTS\\.nuget\\packages\\",
-        "outputPath": "D:\\programing\\dotnet\\LearnDotnet\\TestClassLibrary\\obj\\",
+        "projectPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\TestClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\xps\\.nuget\\packages\\",
+        "outputPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\TestClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\COMPUMARTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xps\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,20 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

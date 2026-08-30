@@ -22,3 +22,4 @@ E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassL
 E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\refint\TestClassLibrary.dll
 E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.pdb
 E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\ref\TestClassLibrary.dll
+E:\flutter_work\dotnet\LearnDotnet\TestClassLibrary\obj\Debug\net10.0\TestClassLibrary.csproj.AssemblyReference.cache

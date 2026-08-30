@@ -19,7 +19,7 @@ namespace Linq
         {
             //LinqBasics.Run();
             //LinqFunctionalProgramming.Run();
-            CoreOfLINQ.Run();
+            //CoreOfLINQ.Run();
             //LinqProjection.Run();
             //LinqSorting.Run();
             //LinqDataPartitioning.Run();
@@ -31,8 +31,7 @@ namespace Linq
             //LinqEqualityOperations.Run();
             //LinqConcatenation.Run();
             //LinqAggregateOperations.Run();
-            //LinqSetsOperations.Run();
-            //LinqSetsOperations.Run();
+            LinqSetsOperations.Run();
             //LinqExpressionTrees.Run();
             //LinqIQueryable.Run();
             //LinqConvertingDataTypes.Run();
