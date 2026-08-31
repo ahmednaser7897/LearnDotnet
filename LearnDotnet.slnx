@@ -1,10 +1,10 @@
 <Solution>
-  <Project Path="ADO.NETBasics/ADO.NETBasics.csproj" Id="efca3507-323a-49be-8bb8-e1db630453f1" />
   <Project Path="AsyncProgramming/AsyncProgramming.csproj" Id="3ebaec77-02ac-4dea-85b8-8c407960e375" />
   <Project Path="CsharpBasics/CsharpFundamentals.csproj" />
   <Project Path="LinqBasics/Linq.csproj" Id="b4bb91c4-d467-4648-9d0b-39dacf897cb3" />
   <Project Path="MyFirstExtension/MyFirstExtension.csproj" Id="b71a0ec0-907f-41e2-a911-3a0a46634c26" />
   <Project Path="MySacondExtension/MySacondExtension.csproj" Id="dfc56832-549f-420b-88ae-901c89a64891" />
+  <Project Path="ORMBasics/ORMBasics.csproj" Id="9a8316f3-cdf1-405e-90aa-b58bbff08053" />
   <Project Path="SnackGame/SnackGame.csproj" Id="aaa3131f-ed58-4c9a-bae5-883a58349232" />
   <Project Path="TestClassLibrary/TestClassLibrary.csproj" Id="48bd23f8-5d11-4f68-8b7c-3edd9f1cc0bd" />
   <Project Path="WindowsFormsBasics/WindowsFormsBasics.csproj" Id="fc46790d-7db5-429f-b54c-9997dc6e6757" />

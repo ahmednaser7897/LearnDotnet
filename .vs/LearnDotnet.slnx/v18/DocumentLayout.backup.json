@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "E:\\flutter_work\\dotnet\\LearnDotnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFCA3507-323A-49BE-8BB8-E1DB630453F1}|ADO.NETBasics\\ADO.NETBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ado.netbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFCA3507-323A-49BE-8BB8-E1DB630453F1}|ADO.NETBasics\\ADO.NETBasics.csproj|solutionrelative:ado.netbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ormbasics\\nhibernate\\nhibernateprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|solutionrelative:ormbasics\\nhibernate\\nhibernateprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFCA3507-323A-49BE-8BB8-E1DB630453F1}|ADO.NETBasics\\ADO.NETBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ado.netbasics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EFCA3507-323A-49BE-8BB8-E1DB630453F1}|ADO.NETBasics\\ADO.NETBasics.csproj|solutionrelative:ado.netbasics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ormbasics\\dapperorm\\dapperprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|solutionrelative:ormbasics\\dapperorm\\dapperprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ormbasics\\nhibernate\\sessioncreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|solutionrelative:ormbasics\\nhibernate\\sessioncreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ormbasics\\nhibernate\\walletmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|solutionrelative:ormbasics\\nhibernate\\walletmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|e:\\flutter_work\\dotnet\\learndotnet\\ormbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8316F3-CDF1-405E-90AA-B58BBFF08053}|ORMBasics\\ORMBasics.csproj|solutionrelative:ormbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ADO.NETBasics\\Program.cs",
-              "RelativeDocumentMoniker": "ADO.NETBasics\\Program.cs",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ADO.NETBasics\\Program.cs*",
-              "RelativeToolTip": "ADO.NETBasics\\Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\Program.cs",
+              "RelativeDocumentMoniker": "ORMBasics\\Program.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\Program.cs",
+              "RelativeToolTip": "ORMBasics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T11:23:01.759Z",
+              "WhenOpened": "2026-08-31T08:10:37.201Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WalletMapping.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\WalletMapping.cs",
+              "RelativeDocumentMoniker": "ORMBasics\\NHibernate\\WalletMapping.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\WalletMapping.cs",
+              "RelativeToolTip": "ORMBasics\\NHibernate\\WalletMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:29:18.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sessioncreator.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\Sessioncreator.cs",
+              "RelativeDocumentMoniker": "ORMBasics\\NHibernate\\Sessioncreator.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\Sessioncreator.cs",
+              "RelativeToolTip": "ORMBasics\\NHibernate\\Sessioncreator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA6wA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:28:21.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ADO.NETBasics\\appsettings.json",
-              "RelativeDocumentMoniker": "ADO.NETBasics\\appsettings.json",
-              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ADO.NETBasics\\appsettings.json",
-              "RelativeToolTip": "ADO.NETBasics\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-30T11:58:51.171Z",
+              "Title": "DapperProgram.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\DapperORM\\DapperProgram.cs",
+              "RelativeDocumentMoniker": "ORMBasics\\DapperORM\\DapperProgram.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\DapperORM\\DapperProgram.cs",
+              "RelativeToolTip": "ORMBasics\\DapperORM\\DapperProgram.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAwwJ4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T10:35:51.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NHibernateProgram.cs",
+              "DocumentMoniker": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\NHibernateProgram.cs",
+              "RelativeDocumentMoniker": "ORMBasics\\NHibernate\\NHibernateProgram.cs",
+              "ToolTip": "E:\\flutter_work\\dotnet\\LearnDotnet\\ORMBasics\\NHibernate\\NHibernateProgram.cs",
+              "RelativeToolTip": "ORMBasics\\NHibernate\\NHibernateProgram.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAxwC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T09:53:38.863Z",
               "EditorCaption": ""
             },
             {

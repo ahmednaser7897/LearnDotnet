@@ -1,4 +1,4 @@
-namespace ADO.NETBasics
+namespace ORMBasics
 {
     public class Wallet
     {
