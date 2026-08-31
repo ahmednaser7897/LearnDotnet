@@ -7,10 +7,10 @@ using NHibernate.Mapping.ByCode;
 
 namespace ORMBasics.NHibernate
 {
-    public class Sessioncreator
+    public static class Sessioncreator
     {
         //Load Connection String
-        static string connectionString = ConnectionString.LoadConnectionString();
+        static readonly string connectionString = ConnectionString.LoadConnectionString();
         public static ISession CreateSession<T>()
         {
 

@@ -2,7 +2,7 @@
 
 namespace ORMBasics
 {
-    internal class ConnectionString
+    internal static class ConnectionString
     {
         public static string LoadConnectionString()
         {

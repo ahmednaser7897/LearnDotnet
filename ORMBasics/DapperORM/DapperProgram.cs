@@ -33,7 +33,7 @@ namespace ORMBasics.DapperORM
     public static class DapperProgram
     {
         //Load Connection String
-        static string connectionString = ConnectionString.LoadConnectionString();
+        static readonly string connectionString = ConnectionString.LoadConnectionString();
         public static void Run()
         {
             ReadData();
@@ -52,9 +52,9 @@ namespace ORMBasics.DapperORM
             Console.WriteLine("---------------- using Dynamic Query -------------");
             // it returns Anonymous type
             var ruselt = db.Query(sqlText);
-            foreach (var row in ruselt) 
+            foreach (var row in ruselt)
                 Console.WriteLine(row);
-            
+
             Console.WriteLine("---------------- using Typed Query -------------");
             // we use Genaric Query to make it map the data 
             var wallets = db.Query<Wallet>(sqlText);
@@ -62,7 +62,7 @@ namespace ORMBasics.DapperORM
                 Console.WriteLine(wallet);
         }
         public static void WriteDataWithoutRetreiving()
-        {            
+        {
             var wallet = new Wallet
             {
                 Holder = "noha",
@@ -76,7 +76,7 @@ namespace ORMBasics.DapperORM
             // Execute() returns an int representing the number of rows affected
             // Use Query() when your SQL returns rows that you want to read
             //db.Query(sqlText, new { Holder = wallet.Holder, Balance = wallet.Balance });
-            db.Execute(sqlText,new {Holder=wallet.Holder, Balance =wallet.Balance});  
+            db.Execute(sqlText, new { Holder = wallet.Holder, Balance = wallet.Balance });
             ReadData();
         }
         public static void WriteDataWithRetreiving()
@@ -92,9 +92,9 @@ namespace ORMBasics.DapperORM
             IDbConnection db = new SqlConnection(connectionString);
             //Use Query() when your SQL returns rows that you want to read
             // so we will use Single() becouse its only one value in the ruselt
-            wallet.Id= db.Query<int>(sqlText, new { Holder = wallet.Holder, Balance = wallet.Balance }).Single();
+            wallet.Id = db.Query<int>(sqlText, new { Holder = wallet.Holder, Balance = wallet.Balance }).Single();
             Console.WriteLine("new wallet : " + wallet);
-            ReadData();  
+            ReadData();
         }
         public static void UsingStoredProcedure()
         {
@@ -106,7 +106,7 @@ namespace ORMBasics.DapperORM
             IDbConnection db = new SqlConnection(connectionString);
 
             int numberOfRowsAffected = db.Execute(
-                "AddWallet", new  { Holder = wallet.Holder, Balance = wallet.Balance  },
+                "AddWallet", new { Holder = wallet.Holder, Balance = wallet.Balance },
                 commandType: CommandType.StoredProcedure
             );
             Console.WriteLine($"number of rows affected: {numberOfRowsAffected}");
@@ -123,7 +123,7 @@ namespace ORMBasics.DapperORM
             var sql = "UPDATE Wallets SET Holder = @Holder , Balance = @Balance " +
                       "WHERE Id = @Id;";
             IDbConnection db = new SqlConnection(connectionString);
-            wallet.Id = db.Execute(sql, new {Id=wallet.Id, Holder = wallet.Holder, Balance = wallet.Balance });
+            wallet.Id = db.Execute(sql, new { Id = wallet.Id, Holder = wallet.Holder, Balance = wallet.Balance });
             ReadData();
         }
         public static void DeleteWallet()
@@ -134,7 +134,7 @@ namespace ORMBasics.DapperORM
             Console.WriteLine($"number of rows affected : {numberofRowsAffected}");
             ReadData();
         }
-        public static void MultiQuerys() 
+        public static void MultiQuerys()
         {
             const string sqlText = "select Min(Balance) from Wallets;"
                 + "select max(Balance) from Wallets;";

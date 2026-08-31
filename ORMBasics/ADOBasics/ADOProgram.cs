@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
 
 // ADO.NET (ActiveX Data Objects .NET) is a data access technology in .NET
 // used to connect applications to databases and perform operations such as:
@@ -26,20 +25,20 @@ namespace ORMBasics.ADOBasics
     public static class ADOProgram
     {
         //Load Connection String
-        static string connectionString = ConnectionString.LoadConnectionString();
-        
+        static readonly string connectionString = ConnectionString.LoadConnectionString();
+
         public static void Run()
         {
-            ReadData();
+            //ReadData();
             //WriteDataWithoutRetreiving();
             //WriteDataWithRetreiving();
             //UsingStoredProcedure();
             //UpdateWallet();
             //DeleteWallet();
-            //ReadDataWithAdaptor();
+            ReadDataWithAdaptor();
             //ExecuteTransaction();
         }
-       public static void ReadData()
+        public static void ReadData()
         {
             // we use Microsoft.Data.SqlClient package to connect to SQL Server
             var sqlConnection = new SqlConnection(connectionString);
@@ -246,8 +245,14 @@ namespace ORMBasics.ADOBasics
             var sqlConnection = new SqlConnection(connectionString);
             const string sqlText = "select * from Wallets";
             sqlConnection.Open();
-            SqlDataAdapter adapter = new SqlDataAdapter(sqlText, sqlConnection);
-            DataTable dataTable = new DataTable();
+            var adapter = new SqlDataAdapter(sqlText, sqlConnection);
+            // SqlCommandBuilder automatically generates INSERT, UPDATE, and DELETE commands.
+            var commandBuilder = new SqlCommandBuilder(adapter);
+            adapter.UpdateCommand = commandBuilder.GetUpdateCommand();
+            adapter.DeleteCommand = commandBuilder.GetDeleteCommand();
+            adapter.InsertCommand = commandBuilder.GetInsertCommand();
+            Console.WriteLine(adapter.UpdateCommand.CommandText);
+            var dataTable = new DataTable();
             adapter.Fill(dataTable);
             sqlConnection.Close();
             Wallet wallet;
@@ -264,7 +269,21 @@ namespace ORMBasics.ADOBasics
                 };
                 Console.WriteLine(wallet);
             }
-            sqlConnection.Close();
+            //we can use adapter.Update(dataTable);
+            // this will update the database with the changes in the data table
+            // modify wallet in the 4th row 
+            dataTable.Rows[3]["Balance"] = 2343434;
+            adapter.Update(dataTable);
+            //we can delete rows from the data table
+            dataTable.Rows[5].Delete();
+            adapter.Update(dataTable);
+            //we can add rows to the data table
+            DataRow newRow = dataTable.NewRow();
+            newRow["Holder"] = "Mahmoud";
+            newRow["Balance"] = 2343434;
+            dataTable.Rows.Add(newRow);
+            adapter.Update(dataTable);
+            ReadData();
         }
         public static void ExecuteTransaction()
         {

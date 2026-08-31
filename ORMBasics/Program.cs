@@ -7,10 +7,10 @@ namespace ORMBasics
     {
         public static void Main()
         {
-            ConnectionString.LoadConnectionString();
+            //ConnectionString.LoadConnectionString();
             ADOProgram.Run();
-            DapperProgram.Run();
-            NHibernateProgram.Run();
+            // DapperProgram.Run();
+            // NHibernateProgram.Run();
         }
     }
 }
