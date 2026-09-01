@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySacondExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eae78eacbc69083cc1993027ed1f91888906941f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78e54a0a8269a6f5d24f3c2b4c97c32fb1704e6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySacondExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySacondExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
